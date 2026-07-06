@@ -19,6 +19,9 @@ export const siteConfig = {
   /** Number used for WhatsApp chat / WhatsApp buttons */
   whatsappNumber: '+91 9118881560',
 
+  /** Inbox where "Quick Enquiry Form" submissions are delivered */
+  enquiryEmail: 'anmol@bajrangplywood.com',
+
   /** Showroom address */
   address: {
     line1: '586, Bara Birwa',

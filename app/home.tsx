@@ -426,14 +426,14 @@ export default function Home() {
                   <input type="email" placeholder="Your Email" className="px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary" />
                 </div>
                 <input type="tel" placeholder="Phone Number" className="w-full px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary" />
-                <select className="w-full px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary">
+                {/* <select className="w-full px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary">
                   <option>Select Product Interest</option>
                   <option>Plywood</option>
                   <option>Laminates</option>
                   <option>Veneers</option>
                   <option>Hardware</option>
                   <option>Other</option>
-                </select>
+                </select> */}
                 <textarea placeholder="Your Requirements" rows={4} className="w-full px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
                 <button type="submit" className="w-full py-3 bg-primary text-primary-foreground rounded font-bold hover:bg-accent transition">
                   Send Enquiry

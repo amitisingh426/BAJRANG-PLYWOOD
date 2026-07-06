@@ -6,6 +6,7 @@ import { Phone, MapPin, Clock, Star, ChevronRight, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { Reveal } from '@/components/scroll-animations'
 import { SiteFooter } from '@/components/site-footer'
+import { QuickEnquiryForm } from '@/components/quick-enquiry-form'
 import { siteConfig, telHref, whatsappHref, mapHref } from '@/lib/site-config'
 import type { Metadata } from 'next'
 
@@ -420,25 +421,7 @@ export default function Home() {
           <Reveal direction="zoom">
             <div className="bg-card rounded-lg shadow-lg p-10">
               <h2 className="text-3xl font-bold text-foreground mb-6 text-center">Quick Enquiry Form</h2>
-              <form className="space-y-4">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <input type="text" placeholder="Your Name" className="px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary" />
-                  <input type="email" placeholder="Your Email" className="px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary" />
-                </div>
-                <input type="tel" placeholder="Phone Number" className="w-full px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary" />
-                {/* <select className="w-full px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary">
-                  <option>Select Product Interest</option>
-                  <option>Plywood</option>
-                  <option>Laminates</option>
-                  <option>Veneers</option>
-                  <option>Hardware</option>
-                  <option>Other</option>
-                </select> */}
-                <textarea placeholder="Your Requirements" rows={4} className="w-full px-4 py-3 bg-muted border border-border rounded focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
-                <button type="submit" className="w-full py-3 bg-primary text-primary-foreground rounded font-bold hover:bg-accent transition">
-                  Send Enquiry
-                </button>
-              </form>
+              <QuickEnquiryForm />
             </div>
           </Reveal>
         </div>

@@ -20,7 +20,9 @@ export const siteConfig = {
   whatsappNumber: '+91 9118881560',
 
   /** Inbox where "Quick Enquiry Form" submissions are delivered */
-  enquiryEmail: 'bajrangplywood8@gmail.com',
+  // enquiryEmail: 'bajrangplywood8@gmail.com',
+  enquiryEmail: 'myuse2506@gmail.com',
+
 
   /** Showroom address */
   address: {

@@ -22,7 +22,7 @@ export const siteConfig = {
   /** Inbox where "Quick Enquiry Form" submissions are delivered */
   // enquiryEmail: 'bajrangplywood8@gmail.com',
   enquiryEmail: 'myuse2506@gmail.com',
-  RESEND_API_KEY: 're_jRvcXWku_Jtv1fT7jSvUt2iDd7ifaiFZy',
+  RESEND_API_KEY: 're_b2vCPiR3_PMBV3z2x5JtsK5DTocLGvKpQ',
 
   /** Showroom address */
   address: {

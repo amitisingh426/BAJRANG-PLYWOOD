@@ -47,9 +47,14 @@ export async function sendEnquiry(
   try {
     const resend = new Resend(apiKey)
 
+    // Once a domain is verified at resend.com/domains, set RESEND_FROM_EMAIL
+    // (e.g. "enquiry@bajrangplywood.com") to deliver to any inbox.
+    // Until then we fall back to Resend's shared test address, which can only
+    // send to the Resend account owner's own email address.
+    const fromEmail = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev'
+
     const { error } = await resend.emails.send({
-      // Resend's shared sending domain works without any DNS setup.
-      from: `${siteConfig.brandName} Website <onboarding@resend.dev>`,
+      from: `${siteConfig.brandName} Website <${fromEmail}>`,
       to: [siteConfig.enquiryEmail],
       replyTo: email || undefined,
       subject: `New Enquiry from ${name} — ${siteConfig.brandName}`,

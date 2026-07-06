@@ -51,7 +51,7 @@ export async function sendEnquiry(
     // (e.g. "enquiry@bajrangplywood.com") to deliver to any inbox.
     // Until then we fall back to Resend's shared test address, which can only
     // send to the Resend account owner's own email address.
-    const fromEmail = 'enquiry@bajrangplywood.com'
+    const fromEmail = 'enquiry@bajrangply.com'
 
     const { error } = await resend.emails.send({
       from: `${siteConfig.brandName} Website <${fromEmail}>`,

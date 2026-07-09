@@ -570,6 +570,13 @@ export const productCategories: ProductCategory[] = [
           'Ideal for wardrobe shutters, interior doors, cabinet doors, and furniture requiring long-lasting, heavy-duty support. Includes standard butt hinges as well as L-hinges and duck hinges for specialised applications.',
         description:
           'Solid brass hinges form the backbone of durable furniture and door construction, offering superior load-bearing strength compared to ordinary steel hinges. Bajrang Plywood supplies genuine brass hinges that resist corrosion and rusting, even in the humid conditions common across Uttar Pradesh. Available in multiple sizes and styles including L-hinges and duck hinges, these hinges deliver smooth, silent movement and years of dependable performance for wardrobes, cabinets, and interior doors across North India.',
+        images: [
+          '/products/hardware/hinges-brass-material/1.png',
+          '/products/hardware/hinges-brass-material/2.png',
+          '/products/hardware/hinges-brass-material/3.png',
+          '/products/hardware/hinges-brass-material/4.png',
+          '/products/hardware/hinges-brass-material/5.png',
+        ],
       },
       {
         name: 'Concealed Hinges',
@@ -578,6 +585,11 @@ export const productCategories: ProductCategory[] = [
           'Used inside modular kitchen cabinets, wardrobe shutters, and modern furniture where a clean, hidden hinge look is preferred over visible hardware.',
         description:
           'Concealed hinges tuck neatly inside the cabinet frame, giving furniture doors a sleek, uninterrupted exterior finish that matches contemporary interior design trends. Bajrang Plywood offers concealed hinges engineered with soft-close and adjustable features, allowing carpenters to fine-tune door alignment for a perfect fit. Built for durability, these hinges are a preferred choice among modular kitchen and wardrobe manufacturers across Lucknow and Uttar Pradesh.',
+        images: [
+          '/products/hardware/concealed-hinges/1.png',
+          '/products/hardware/concealed-hinges/2.png',
+          '/products/hardware/concealed-hinges/3.png',
+        ],
       },
       {
         name: 'Profiles For Wardrobe & Shutters',
@@ -586,6 +598,14 @@ export const productCategories: ProductCategory[] = [
           'Used to create a modern, handle-less look on wardrobe shutters and kitchen cabinets, providing an easy finger-grip channel for opening doors.',
         description:
           'Profile systems replace bulky external handles with a slim, integrated aluminium channel that gives wardrobes and kitchens a minimalist, contemporary appearance. Bajrang Plywood supplies a range of profile shapes and finishes suited to different shutter thicknesses and design styles. Corrosion-resistant and built for daily use, these profiles are a popular choice among interior designers across Lucknow, Uttar Pradesh, and North India for creating clean, handle-free modular furniture.',
+        images: [
+          '/products/hardware/profiles-wardrobe-shutters/1.png',
+          '/products/hardware/profiles-wardrobe-shutters/2.png',
+          '/products/hardware/profiles-wardrobe-shutters/3.png',
+          '/products/hardware/profiles-wardrobe-shutters/4.png',
+          '/products/hardware/profiles-wardrobe-shutters/5.png',
+          '/products/hardware/profiles-wardrobe-shutters/6.png',
+        ],
       },
     ],
   },
@@ -601,6 +621,13 @@ export const productCategories: ProductCategory[] = [
           'Ideal for kitchen countertops, wash basins, bathroom vanities, reception counters, and seamless commercial work surfaces.',
         description:
           'Korean Stone, also known as acrylic solid surface, delivers the elegant look of natural stone with the added benefits of a completely non-porous, seamless finish. Unlike granite or marble, this surface resists staining, water absorption, and bacterial growth, making it ideal for kitchens and bathrooms. Its joints can be seamlessly fused for an unbroken countertop appearance, and it can be moulded into curved or custom shapes for basins and reception counters. Bajrang Plywood supplies premium acrylic stone surfaces from Lucknow to residential and commercial projects across Uttar Pradesh and North India.',
+        images: [
+          '/products/korean-stone/korean-stone-acrylic-surface/1.png',
+          '/products/korean-stone/korean-stone-acrylic-surface/2.png',
+          '/products/korean-stone/korean-stone-acrylic-surface/3.png',
+          '/products/korean-stone/korean-stone-acrylic-surface/4.png',
+          '/products/korean-stone/korean-stone-acrylic-surface/5.png',
+        ],
       },
     ],
   },
@@ -616,6 +643,12 @@ export const productCategories: ProductCategory[] = [
           'Best suited for main entrance doors, office cabin doors, and interior doors requiring a robust, traditional locking mechanism.',
         description:
           'Mortise locks are fitted directly into the body of the door, offering a strong, tamper-resistant locking mechanism trusted for decades across Indian homes and offices. Bajrang Plywood supplies mortise locks built with hardened steel components and reliable key-and-latch systems suited to daily heavy use. Their sturdy construction and easy compatibility with wooden and flush doors make them a preferred choice for main entrances and cabin doors across Lucknow and Uttar Pradesh.',
+        images: [
+          '/products/locks/mortise-locks/1.png',
+          '/products/locks/mortise-locks/2.png',
+          '/products/locks/mortise-locks/3.png',
+          '/products/locks/mortise-locks/4.png',
+        ],
       },
       {
         name: 'Yale Locks',
@@ -624,6 +657,10 @@ export const productCategories: ProductCategory[] = [
           'Ideal for main doors, bedroom doors, and office entrances needing a quick-turn, easy-to-operate locking system.',
         description:
           'Yale-style cylindrical locks offer a simple, reliable locking mechanism that is quick to install and easy to operate on a daily basis. Bajrang Plywood stocks these locks with corrosion-resistant finishes and durable internal pin-tumbler mechanisms, designed to withstand frequent use without jamming. Compact and dependable, they are widely chosen for main doors and interior rooms across residential and commercial projects in North India.',
+        images: [
+          '/products/locks/yale-locks/1.png',
+          '/products/locks/yale-locks/2.png',
+        ],
       },
       {
         name: 'Biometric Locks',
@@ -632,6 +669,12 @@ export const productCategories: ProductCategory[] = [
           'Perfect for main entrance doors, office access points, and premium homes seeking keyless, technology-driven security.',
         description:
           'Biometric locks bring modern smart-home security to your entrance with fingerprint, keypad, or app-based access, eliminating the hassle of carrying keys. Bajrang Plywood supplies biometric locks with rechargeable battery backup, tamper alerts, and multiple user-access modes suited to both homes and offices. As demand for smart security solutions grows across Lucknow and Uttar Pradesh, these locks offer a future-ready, convenient upgrade over traditional locking systems.',
+        images: [
+          '/products/locks/biometric-locks/1.png',
+          '/products/locks/biometric-locks/2.png',
+          '/products/locks/biometric-locks/3.png',
+          '/products/locks/biometric-locks/4.png',
+        ],
       },
     ],
   },
@@ -686,6 +729,12 @@ export const productCategories: ProductCategory[] = [
           'Ideal for storing cash, jewellery, important documents, and valuables securely at home, in offices, and in commercial establishments.',
         description:
           'A dependable safe is essential for protecting valuables from theft and damage, and Bajrang Plywood supplies heavy-duty safes built with reinforced steel bodies and multi-bolt locking mechanisms. Available with key, digital, or biometric locking options, these safes cater to a range of home and office security needs. Built for long-term reliability, they are a trusted choice for residential and commercial clients across Lucknow and Uttar Pradesh looking to secure their most important belongings.',
+        images: [
+          '/products/safes/safes/1.png',
+          '/products/safes/safes/2.png',
+          '/products/safes/safes/3.png',
+          '/products/safes/safes/4.png',
+        ],
       },
     ],
   },
@@ -732,6 +781,10 @@ export const productCategories: ProductCategory[] = [
           'Used inside modular wardrobes, walk-in closets, and storage units for organising clothes, accessories, and daily essentials. Widely fitted by carpenters and modular kitchen/wardrobe fabricators across Lucknow, Uttar Pradesh, and Nepal border towns.',
         description:
           'Bajrang Plywood offers high-quality Sliding Wardrobe Drawers built for smooth, noiseless operation and long-term durability. Designed with sturdy metal channels and a strong frame, these drawers glide effortlessly even under regular daily use, making wardrobes more functional and organised. They are a popular choice among carpenters and interior fit-out contractors across Lucknow and Uttar Pradesh for modular bedroom and dressing room projects. Easy to install and compatible with most wardrobe carcass designs, these drawers add a premium, clutter-free storage solution to any home or office interior. Available in bulk for dealers and retail buyers across the region.',
+        images: [
+          '/products/wardrobe-accessories/sliding-wardrobe-drawers/1.png',
+          '/products/wardrobe-accessories/sliding-wardrobe-drawers/2.png',
+        ],
       },
       {
         name: 'Multiple Layer Wardrobe Organizer',
@@ -740,6 +793,10 @@ export const productCategories: ProductCategory[] = [
           'Fitted inside modular wardrobes and closets to store folded clothes, linens, and accessories in an organised, layered manner. Commonly used by carpenters and interior designers for compact bedrooms, hostels, and residential apartments across UP and the Nepal border markets.',
         description:
           'The Multiple Layer Wardrobe Organizer from Bajrang Plywood is engineered to maximise storage space inside modular wardrobes through multi-tier, foldable and pull-out compartments. It helps keep clothes, linens, and everyday items neatly arranged, reducing clutter and improving wardrobe efficiency. Sturdy, easy to install, and compatible with standard wardrobe carcasses, this organizer is a favourite among carpenters and interior fit-out professionals across Lucknow and Uttar Pradesh for both residential and commercial projects. A practical, space-smart accessory ideal for compact homes, hostels, and modern apartments, available for bulk supply to dealers across the Nepal border belt.',
+        images: [
+          '/products/wardrobe-accessories/multiple-layer-wardrobe-organizer/1.png',
+          '/products/wardrobe-accessories/multiple-layer-wardrobe-organizer/2.png',
+        ],
       },
     ],
   },

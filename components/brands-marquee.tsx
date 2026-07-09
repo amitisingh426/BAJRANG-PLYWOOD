@@ -20,50 +20,51 @@ const brands = [
 
 export function BrandsMarquee() {
   const marqueeStyle: CSSProperties = {
-    animation: 'scroll 50s linear infinite',
+    animation: 'scroll 70s linear infinite',
   }
 
   return (
-    <section className="py-12 bg-background overflow-hidden">
+    <section className="bg-muted/30 overflow-hidden">
       <style>{`
         @keyframes scroll {
           0% {
-            transform: translateX(100%);
+            transform: translateX(0);
           }
           100% {
-            transform: translateX(-100%);
+            transform: translateX(calc(-50% - 16px));
           }
         }
       `}</style>
 
-      <div className="max-w-7xl mx-auto px-4 mb-8">
-        <h3 className="text-center text-lg font-semibold text-foreground">Served For Brands</h3>
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <h3 className="text-center text-lg font-semibold text-foreground mb-12">Served For Brands</h3>
       </div>
 
-      <div className="relative overflow-hidden">
-        <div className="flex gap-8 whitespace-nowrap" style={marqueeStyle}>
+      <div className="relative overflow-hidden bg-card/40 border-t border-b border-border py-8">
+        <div className="flex gap-12 whitespace-nowrap" style={marqueeStyle}>
+          {/* First set of brands */}
           {brands.map((brand, idx) => (
             <div
               key={`${idx}-1`}
-              className="flex-shrink-0 h-16 flex items-center justify-center px-6"
+              className="flex-shrink-0 h-16 flex items-center justify-center px-8"
             >
               <img
                 src={brand.image}
                 alt={brand.name}
-                className="max-h-16 max-w-xs h-auto object-contain"
+                className="max-h-16 max-w-xs h-auto object-contain opacity-70 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
               />
             </div>
           ))}
-          {/* Duplicate for seamless loop */}
+          {/* Duplicate for true seamless infinite loop */}
           {brands.map((brand, idx) => (
             <div
               key={`${idx}-2`}
-              className="flex-shrink-0 h-16 flex items-center justify-center px-6"
+              className="flex-shrink-0 h-16 flex items-center justify-center px-8"
             >
               <img
                 src={brand.image}
                 alt={brand.name}
-                className="max-h-16 max-w-xs h-auto object-contain"
+                className="max-h-16 max-w-xs h-auto object-contain opacity-70 hover:opacity-100 transition-opacity duration-300 grayscale hover:grayscale-0"
               />
             </div>
           ))}

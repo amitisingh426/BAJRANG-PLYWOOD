@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { Reveal } from '@/components/scroll-animations'
 import { SiteFooter } from '@/components/site-footer'
 import { QuickEnquiryForm } from '@/components/quick-enquiry-form'
+import { BrandsMarquee } from '@/components/brands-marquee'
 import { siteConfig, telHref, whatsappHref, mapHref } from '@/lib/site-config'
 import type { Metadata } from 'next'
 
@@ -230,6 +231,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Served For Brands Marquee */}
+      <BrandsMarquee />
 
       {/* Featured Products */}
       <section className="py-20 bg-background">

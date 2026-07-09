@@ -494,6 +494,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Wardrobe door inserts, partition screens, and organic bohemian furniture accents.',
         description:
           'Bring organic warmth and texture to your interiors with our premium natural rattan cane sheets. Perfectly suited for both contemporary and traditional designs, these breathable, durable sheets add an earthy charm to any space. Bajrang Plywood offers an extensive selection at our Lucknow showroom, serving as a trusted wholesale supplier for interior designers and furniture makers across Uttar Pradesh, North India, and Nepal border cities.',
+        images: ['/products/decoratives/cane-sheet/1.jpeg', '/products/decoratives/cane-sheet/2.jpeg'],
       },
       {
         name: 'Cork Sheet',
@@ -501,6 +502,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Office notice boards, acoustic wall cladding, accent walls, and thermal insulation backing.',
         description:
           'Optimize your spaces with sustainable cork sheets, an excellent choice for acoustic dampening and thermal regulation. Widely utilized in commercial offices and educational spaces, these eco-friendly panels effectively minimize ambient noise. Available in bulk, Bajrang Plywood ensures seamless distribution to contractors and architects throughout Lucknow, the broader UP region, and neighbouring Nepal border markets.',
+        images: ['/products/decoratives/cork-sheet/1.jpeg', '/products/decoratives/cork-sheet/2.jpeg'],
       },
       {
         name: 'Cork Sheet with Louvers',
@@ -508,6 +510,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'High-end living room accent walls, bedroom backdrops, and acoustic studio paneling.',
         description:
           'Merge the natural insulation of cork with the contemporary architectural appeal of fluted panels. These hybrid louvers are highly sought after by top architects for creating 3D depth and sophisticated textures in luxury spaces. Distributed from our Lucknow hub, Bajrang Plywood caters to premium residential and commercial projects across North India and Uttar Pradesh, right up to the Nepal border.',
+        images: ['/products/decoratives/cork-sheet-with-louvers/1.png'],
       },
       {
         name: 'Designer Sheet',
@@ -515,6 +518,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Premium TV backdrops, luxury wardrobe shutters, lobby feature walls, and bespoke furniture.',
         description:
           'Elevate your architectural projects with our exclusive collection of designer decorative sheets. Featuring intricate textures and striking modern patterns, these panels act as the visual centrepiece of any room. As a leading distributor based in Lucknow, Bajrang Plywood supplies these high-end surfaces to interior designers and builders throughout UP and North India.',
+        images: ['/products/decoratives/designer-sheet/1.png'],
       },
       {
         name: 'SPC Louvers Fire Resistant',
@@ -522,6 +526,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Commercial hallways, premium kitchen areas, office lobbies, and fire-safe interior cladding.',
         description:
           'Prioritize absolute safety without compromising on aesthetics using our fire-resistant SPC (Stone Plastic Composite) louvers. Meeting strict commercial standards, these ultra-durable fluted panels resist water, wear, and flames while maintaining a flawless finish. Bajrang Plywood provides heavy-duty architectural solutions to commercial developers across Uttar Pradesh, with distribution spanning from Lucknow to the Nepal border.',
+        images: ['/products/decoratives/spc-louvers-fire-resistant/1.png'],
       },
       {
         name: 'Charcoal Louver',
@@ -529,6 +534,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Modern TV unit backgrounds, master bedroom feature walls, pillars, and commercial showrooms.',
         description:
           'Redefine interior aesthetics with our premium charcoal louvers, a top-trending wall cladding solution. Engineered to be termite-proof and water-resistant, these lightweight fluted panels add instant architectural depth and shadow play to any plain wall. Bajrang Plywood supplies these high-demand profiles to residential and commercial projects across Lucknow, North India, and markets near the Nepal border.',
+        images: ['/products/decoratives/charcoal-louver/1.png'],
       },
       {
         name: 'Customized Door',
@@ -536,6 +542,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Main entrance doors, luxury master bedroom entryways, and sophisticated office cabin doors.',
         description:
           'We DEAL IN- Laminate Doors, Veneer Doors, PU Doors, Duco Doors, Panel Doors, W.P.C / P.V.C Doors, Membrane Doors, Flush Doors. Make a lasting impression with customized architectural doors tailored exactly to your vision. Built with warp-resistant calibrated cores to ensure structural integrity over time, these doors seamlessly complement luxury interior themes. Operating out of Lucknow, Bajrang Plywood collaborates with premium homeowners and builders to deliver tailored dimensions and finishes across Uttar Pradesh and North India.',
+        images: ['/products/decoratives/customized-door/1.jpg', '/products/decoratives/customized-door/2.jpg', '/products/decoratives/customized-door/3.jpg'],
       },
       {
         name: 'Designer Laminates 1.25mm Thickness',
@@ -543,6 +550,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'High-wear modular kitchen countertops, premium wardrobes, office desks, and durable partitions.',
         description:
           'Experience the perfect blend of style and resilience with our 1.25mm thick designer laminates. Offering exceptional scratch, crack, and impact resistance, these premium high-pressure sheets are built for demanding wear and tear. From our Lucknow distribution centre, Bajrang Plywood supplies these ultra-durable, deeply textured laminates to dealers, designers, and carpenters across UP and North India.',
+        images: ['/products/decoratives/designer-laminates-125mm/1.png'],
       },
       {
         name: 'Charcoal Panels',
@@ -550,6 +558,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Luxury living area backdrops, commercial reception spaces, ceiling accents, and bar paneling.',
         description:
           'Transform ordinary walls into striking artistic statements with our high-end charcoal panels. Highly resistant to borers and moisture, these eco-friendly sheets feature deep textures and metallic veins that catch the light beautifully. As a premier decorative supplier in Lucknow, Bajrang Plywood provides these dramatic focal-point surfaces throughout Uttar Pradesh and up to the Nepal border.',
+        images: ['/products/decoratives/charcoal-panels/1.png'],
       },
       {
         name: 'Acrylic Sheet 2.25mm Thickness (First Time In India)',
@@ -557,6 +566,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Luxury modular kitchen shutters, high-end bathroom vanities, and seamless modern wardrobes.',
         description:
           "Introduce a flawless, glass-like reflection to your cabinetry with one of India's first 2.25mm thick premium acrylic sheets. Engineered for an unparalleled high-gloss finish, these innovative sheets are highly scratch-resistant and formulated to prevent yellowing. Bajrang Plywood proudly supplies this cutting-edge, seamless surface material from Lucknow to top modular furniture manufacturers across UP, North India, and Nepal border cities.",
+        images: ['/products/decoratives/acrylic-sheet-225mm/1.png'],
       },
       {
         name: 'Fabric Sheets',
@@ -564,6 +574,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Luxury bedroom wardrobes, acoustic study room paneling, cozy accent walls, and ceiling styling.',
         description:
           'Infuse soft elegance into hard architectural lines with our innovative fabric sheets. Replicating the exact weave and warmth of premium upholstery, these panels offer a sophisticated look with the easy maintenance of a hard surface. Highly favoured by interior designers, Bajrang Plywood distributes these durable, cozy textured sheets from our Lucknow base to upscale projects across Uttar Pradesh and North India.',
+        images: ['/products/decoratives/fabric-sheets/1.png'],
       },
       {
         name: 'Mood Board for Designer Comfort',
@@ -571,6 +582,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Architect presentations, interior design planning, client consultations, and space conceptualization.',
         description:
           'Streamline the design and selection process with our professionally curated material mood boards. These boards harmonize textures, shades, and materials to help clients visualize cohesive, luxury interiors effortlessly. Bajrang Plywood provides these essential presentation tools to architectural firms and interior decorators operating in Lucknow, across UP, and near the Nepal border.',
+        images: ['/products/decoratives/mood-board-designer-comfort/1.png'],
       },
       {
         name: 'MCS Sheet (Mineral Composite Sheet)',
@@ -578,6 +590,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Heavy-duty exterior wall cladding, moisture-heavy bathrooms, high-traffic commercial spaces, and pillars.',
         description:
           'Ensure long-lasting structural elegance with our rugged mineral composite sheets. Made from high-grade natural mineral compounds, they are entirely waterproof, fire-retardant, and immune to severe weathering. Bajrang Plywood is a primary wholesale supplier of these tough, stone-textured cladding panels in Lucknow, fulfilling heavy-duty exterior needs for builders across North India and Uttar Pradesh.',
+        images: ['/products/decoratives/mcs-sheet-mineral-composite/1.png'],
       },
       {
         name: 'Charcoal Louvers',
@@ -585,6 +598,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Modern TV walls, corporate conference room backdrops, pillar wraps, and main hallway framing.',
         description:
           'Expand your geometric design possibilities with our architectural grade charcoal louvers. Featuring distinct slat widths and deep profiles, these panels create sharp, dramatic linear patterns that enhance the scale of any room. Stocked in high volumes in Lucknow, Bajrang Plywood caters to strong demand for these sleek, minimalist designs from commercial interior decorators throughout UP and the Nepal border.',
+        images: ['/products/decoratives/charcoal-louvers/1.png'],
       },
       {
         name: 'Charcoal Mood Boards',
@@ -592,6 +606,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Selecting coordinated wall paneling systems, matching trim hardware, and finalizing commercial decor themes.',
         description:
           'Take the guesswork out of accent wall design with our professional charcoal mood boards. Featuring curated combinations of complementary textures, metallic trims, and louver styles, these boards help designers finalize cohesive architectural themes. Bajrang Plywood supplies these tactile selection boards to architects and builders across Lucknow, Uttar Pradesh, and North India.',
+        images: ['/products/decoratives/charcoal-mood-boards/1.png'],
       },
       {
         name: 'Silk Laminates (Melted Metal)',
@@ -599,6 +614,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Premium executive desks, luxury wardrobe accents, bar cabinets, and statement master beds.',
         description:
           'Capture the breathtaking look of fluid architecture with our silk laminates in melted metal finishes. Offering a unique, velvety soft touch combined with the shimmering depth of poured metallic compounds, these laminates bring unmatched opulence to smooth surfaces. Bajrang Plywood distributes these high-definition, futuristic sheets to elite custom furniture designers across Lucknow, UP, and the Nepal border markets.',
+        images: ['/products/decoratives/silk-laminates-melted-metal/1.png'],
       },
       {
         name: 'Fabric Bendable Sheets',
@@ -606,6 +622,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Wrapping round pillars, curved reception desks, arched door frames, and organic furniture.',
         description:
           'Break free from rigid, sharp corners with our innovative fabric bendable sheets. Combining a beautiful textile texture with a highly pliable backing, these panels wrap seamlessly around tight curves and complex geometries without cracking. Bajrang Plywood is a leading supplier providing these flexible decorative solutions from Lucknow to modern architectural projects across Uttar Pradesh and North India.',
+        images: ['/products/decoratives/fabric-bendable-sheets/1.png'],
       },
       {
         name: 'MCM Flexible Clay Sheets 360 Degree',
@@ -613,6 +630,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Ideal for accent walls, curved columns, ceiling features, and full 360-degree wraparound cladding on pillars and arches.',
         description:
           'Get the raw, earthy beauty of natural clay and stone without the weight or rigidity of traditional cladding with our MCM Flexible Clay Sheets. Their ultra-thin, flexible construction allows them to be wrapped fully around curved columns, arches, and irregular surfaces for a genuine 360-degree finish. Lightweight yet durable, these sheets resist cracking and moisture while delivering an authentic textured, natural stone appearance. Bajrang Plywood supplies this innovative cladding solution from Lucknow to designers and builders across Uttar Pradesh, North India, and the Nepal border looking for a modern take on natural wall finishes.',
+        images: ['/products/decoratives/mcm-flexible-clay-sheets/1.jpg', '/products/decoratives/mcm-flexible-clay-sheets/2.jpg'],
       },
       {
         name: 'Flextone',

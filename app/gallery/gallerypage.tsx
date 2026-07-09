@@ -52,12 +52,12 @@ export default function GalleryPage() {
         <div className="max-w-7xl mx-auto px-4 py-12">
           {/* Hero Section */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-foreground mb-4">Project Inspiration</h1>
-            <p className="text-xl text-muted-foreground">Real projects by our customers. Get inspired by our work.</p>
+            <h1 className="text-4xl font-bold text-foreground mb-4">Interior Design Gallery</h1>
+            <p className="text-xl text-muted-foreground">Explore our portfolio of thoughtfully designed interiors, where creativity, functionality, and craftsmanship come together to transform every space</p>
           </div>
 
           {/* Category Filter */}
-          <div className="flex flex-wrap gap-2 mb-12 justify-center">
+          {/* <div className="flex flex-wrap gap-2 mb-12 justify-center">
             {categories.map(cat => (
               <button
                 key={cat}
@@ -71,7 +71,7 @@ export default function GalleryPage() {
                 {cat}
               </button>
             ))}
-          </div>
+          </div> */}
 
           {/* Gallery Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -87,11 +87,11 @@ export default function GalleryPage() {
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
                 />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition duration-300 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white text-xl font-bold text-center mb-2">{item.title}</h3>
+                  {/* <h3 className="text-white text-xl font-bold text-center mb-2">{item.title}</h3>
                   <p className="text-white/90 text-sm text-center px-4">{item.desc}</p>
                 </div>
                 <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-semibold opacity-0 group-hover:opacity-100 transition">
-                  {item.category}
+                  {item.category} */}
                 </div>
               </div>
             ))}
@@ -122,7 +122,7 @@ export default function GalleryPage() {
         <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" onClick={() => setSelectedImage(null)}>
           <div className="bg-card rounded-lg max-w-4xl w-full max-h-[90vh] overflow-auto" onClick={e => e.stopPropagation()}>
             <div className="sticky top-0 flex items-center justify-between p-4 bg-card border-b border-border">
-              <h2 className="text-2xl font-bold text-foreground">{selectedImage.title}</h2>
+              <h2 className="text-2xl font-bold text-foreground">Bajrang Plywood</h2>
               <button
                 onClick={() => setSelectedImage(null)}
                 className="text-muted-foreground hover:text-foreground transition"
@@ -137,14 +137,14 @@ export default function GalleryPage() {
                 className="w-full h-auto rounded-lg mb-6"
               />
               <div className="space-y-4">
-                <div>
+                {/* <div>
                   <p className="text-sm text-muted-foreground mb-1">Category</p>
                   <p className="text-lg font-semibold text-foreground">{selectedImage.category}</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Description</p>
                   <p className="text-lg text-foreground">{selectedImage.desc}</p>
-                </div>
+                </div> */}
                 <div className="bg-muted rounded-lg p-4">
                   <p className="text-muted-foreground mb-3">Interested in a similar design?</p>
                   <a href="/#contact" className="inline-block px-6 py-2 bg-primary text-primary-foreground rounded font-semibold hover:bg-accent transition">

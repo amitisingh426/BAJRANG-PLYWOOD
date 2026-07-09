@@ -19,18 +19,61 @@ const tabs = [
 ]
 
 const productCategories = [
-  'Plywood',
-  'Block Boards',
-  'Flush Doors',
-  'Decorative Laminates',
-  'Veneers',
-  'Corian Sheets & Solid Surfaces',
-  'Charcoal & Acoustic Panels',
-  'MDF & HDHMR Boards',
-  'PVC Panels & WPC Boards',
-  'Hardware Fittings',
-  'Adhesives & Edge Banding',
-  'Decorative Interior Accessories',
+  {
+    name: 'Plywood',
+    description:
+      'Commercial, BWR (boiling water resistant), BWP (boiling waterproof), marine, and fire-retardant grades; all ISI-marked and premium quality',
+  },
+  {
+    name: 'Block Boards',
+    description: 'Solid core and decorative block boards for doors, partitions, and furniture',
+  },
+  {
+    name: 'Flush Doors',
+    description:
+      'Solid and hollow core, skin doors, and fire-rated flush doors for residential and commercial use',
+  },
+  {
+    name: 'Decorative Laminates',
+    description:
+      '1,000+ design options from Greenlam, Merino, Century Laminates, Durian, and more — for all surfaces and applications',
+  },
+  {
+    name: 'Veneers',
+    description:
+      'Natural and engineered wood veneers for premium surface finishes in furniture and interiors',
+  },
+  {
+    name: 'Corian Sheets & Solid Surfaces',
+    description: 'For kitchen countertops, platforms, vanity tops, and wall cladding',
+  },
+  {
+    name: 'Charcoal Panels & Acoustic Panels',
+    description: 'For designer feature walls, false ceilings, and modern interior accents',
+  },
+  {
+    name: 'MDF & HDHMR Boards',
+    description:
+      'Moisture-resistant, high-density boards for modular furniture, kitchen cabinets, and wardrobes',
+  },
+  {
+    name: 'PVC Panels & WPC Boards',
+    description:
+      'Fully waterproof, termite-proof wall and ceiling panels for bathrooms, kitchens, and wet areas',
+  },
+  {
+    name: 'Hardware Fittings',
+    description:
+      'Hettich, Hafele, Blum, Godrej, Ebco: hinges, soft-close channels, handles, locks, and modular furniture fittings',
+  },
+  {
+    name: 'Adhesives & Edge Banding',
+    description: 'Fevicol, Pidilite, and premium PVC edge banding for professional furniture finishing',
+  },
+  {
+    name: 'Decorative Interior Accessories',
+    description: 'Profiles, beadings, glass inserts, and surface accessories for complete interior projects',
+  },
 ]
 
 export default function AboutPage() {
@@ -39,26 +82,35 @@ export default function AboutPage() {
   const tabsRef = useRef<HTMLDivElement | null>(null)
   const isClickScrolling = useRef(false)
 
-  // Scroll-sync: highlight the tab for the section currently in view
+  // Scroll-sync: highlight the tab for the section currently in view.
+  // Uses a fixed trigger line rather than a thin IntersectionObserver band,
+  // which reliably handles tall sections and the final section at page bottom.
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (isClickScrolling.current) return
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)
-        if (visible[0]) {
-          setActiveId(visible[0].target.id)
-        }
-      },
-      {
-        rootMargin: '-180px 0px -70% 0px',
-        threshold: [0, 0.1, 0.2],
-      },
-    )
+    const onScroll = () => {
+      if (isClickScrolling.current) return
 
-    Object.values(sectionRefs.current).forEach((el) => el && observer.observe(el))
-    return () => observer.disconnect()
+      // If we've reached (near) the bottom of the page, force the last tab —
+      // the final section's top may never cross the trigger line otherwise.
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
+        setActiveId(tabs[tabs.length - 1].id)
+        return
+      }
+
+      const triggerLine = 160 // px from the top of the viewport
+      let current = tabs[0].id
+      for (const t of tabs) {
+        const el = sectionRefs.current[t.id]
+        if (!el) continue
+        if (el.getBoundingClientRect().top - triggerLine <= 0) {
+          current = t.id
+        }
+      }
+      setActiveId(current)
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   // Keep the active tab scrolled into view inside the tab bar
@@ -145,14 +197,14 @@ export default function AboutPage() {
                 Bajrang Plywood
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-                More Than Just Materials — Your Complete Design Partner in Lucknow
+                More Than Just Materials — We Are Your Complete Design Partner in Lucknow
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Bajrang Plywood is one of the leading <b>plywood dealers, hardware suppliers, and decorative interior material distributors in Lucknow</b>, Uttar Pradesh — proudly serving customers <b>since 2013</b>. Our showroom at 586, Bara Birwa, Kanpur Road (near Hotel Piccadily) is a complete destination for premium Plywood, Laminates, Veneers, Flush Doors, Block Boards, MDF, Charcoal Panels, PVC Panels, Hardware, Locks, Adhesives, and decorative interior accessories.
+                  Bajrang Plywood is one of the leading <b>plywood dealers, hardware suppliers, and decorative interior material distributors in Lucknow</b>, Uttar Pradesh — proudly serving customers <b>since 2013</b>. Located at 586, Bara Birwa, Kanpur Road, Lucknow (near Hotel Piccadily), our showroom is a complete destination for premium Plywood, Laminates, Veneers, Flush Doors, Block Boards, MDF boards, Charcoal Panels, PVC Panels, Hardware fittings, Locks, Acrylic Sheet, Doors, Adhesives, and Decorative Interior Accessories.
                 </p>
                 <p>
-                  We are authorised stockists and dealers for <b>Century Ply, Greenply, Greenlam, Kitply, Merino, Hettich, Godrej, Blum, Ebco, Fevicol</b>, and 50+ nationally respected brands. Today we supply across <b>Uttar Pradesh, Uttarakhand</b>, and major cities along the Nepal border region — serving interior designers, architects, furniture manufacturers, contractors, carpenters, builders, and homeowners, all in one place.
+                  We are authorised stockists and dealers for <b>Century Ply, Greenply, Greenlam, Kitply, Merino, Hettich, Godrej, Blum, Ebco, Fevicol</b>, and 50+ nationally respected brands. Today, Bajrang Plywood supplies products across <b>Uttar Pradesh, Uttarakhand</b>, and major cities along the Nepal border region, while also catering to customers in various parts of India through a strong distribution network. Whether you are an interior designer, architect, furniture manufacturer, contractor, carpenter, builder, or a homeowner planning a new kitchen, wardrobe, or office fit-out — Bajrang Plywood has everything you need, in one place.
                 </p>
               </div>
             </div>
@@ -230,10 +282,10 @@ export default function AboutPage() {
                   Bajrang Plywood was founded by <strong className="text-foreground">Mr. Anmol Agarwal</strong> with a clear vision — to build a reliable, single-destination showroom in Lucknow where customers could find everything needed for premium interior design and construction: from structural plywood and block boards to decorative laminates, veneers, hardware fittings, adhesives, and much more.
                 </p>
                 <p>
-                  After completing his schooling from City Montessori School (CMS), Lucknow, and earning his Engineering degree from Babu Banarasi Das National Institute of Technology and Management, Lucknow, Mr. Anmol entered the plywood and interior materials industry with a commitment to raising the standards of quality, transparency, and customer service for the region&apos;s builders, designers, and homeowners.
+                  After completing his schooling from City Montessori School (CMS), Lucknow, and earning his Engineering degree from Babu Banarasi Das National Institute of Technology and Management, Lucknow, Mr. Anmol entered the plywood and interior materials industry in Uttar Pradesh with a commitment to raising the standards of quality, transparency, and customer service available to the region&apos;s builders, designers, and homeowners.
                 </p>
                 <p>
-                  What began as an independent venture in 2013 has grown into a trusted partner for homeowners, architects, interior designers, contractors, builders, furniture manufacturers, and commercial establishments across <b>Lucknow, Kanpur, Varanasi, Prayagraj, Gorakhpur, Sitapur, Hardoi</b>, and beyond. Over more than a decade, Bajrang Plywood has earned the confidence of <b>40,000+ clients</b> by consistently delivering products that combine durability, performance, and value.
+                  What began as an independent venture in 2013 has grown into a trusted partner for homeowners, architects, interior designers, contractors, builders, furniture manufacturers, carpenters, and commercial establishments across <b>Lucknow, Kanpur, Varanasi, Prayagraj, Gorakhpur, Sitapur, Hardoi</b>, and beyond. Over more than a decade, Bajrang Plywood has earned the confidence of <b>40,000+ clients</b> by consistently delivering products that combine durability, performance, and value — for modular kitchens, wardrobes, living rooms, office interiors, retail spaces, hotels, and large-scale construction projects across North India.
                 </p>
               </div>
               </div>
@@ -276,15 +328,22 @@ export default function AboutPage() {
                     Since 2013, Bajrang Plywood has been devoted to supplying high-quality plywood, hardware fittings, and decorative interior accessories to customers across Lucknow, Uttar Pradesh, and North India. Our commitment to ethics, craftsmanship, and continuous innovation guarantees that every product we supply meets the highest standards — so your projects are built to last and look exceptional.
                   </p>
                   <p>
-                    We remain at the forefront of the industry by continuously investing in our design solutions, our people, and our relationships with India&apos;s leading brands. Transforming spaces is not a goal at Bajrang Plywood — it is our foundation. Our mission is to give every client, whether a first-time homeowner or a seasoned architect, access to reliable, expertly tailored design.
+                    We remain at the forefront of the plywood and interior materials industry in Uttar Pradesh by continuously investing in our design solutions, our people, and our relationships with India&apos;s leading brands. Transforming spaces is not a goal at Bajrang Plywood — it is our foundation. Our mission is to give every client — whether a first-time homeowner or a seasoned architect — access to reliable, expertly tailored design.
                   </p>
                   <p>
-                    Beyond our business, I am deeply committed to nurturing the next generation of design talent in Lucknow — actively sharing industry expertise through guest lectures at Government College of Architecture (GCA), Lucknow, and Babu Banarasi Das University (BBDU), Lucknow. Thank you for considering Bajrang Plywood. We look forward to being part of your project.
+                    We believe in blending traditional values with modern thinking, adapting quickly to the evolving needs of our customers — whether that means helping source the perfect modular kitchen materials in Lucknow, tracking down a specific Hettich hardware fitting, or advising on the right waterproof plywood grade for a large commercial project.
+                  </p>
+                  <p>
+                    Beyond our business, I am deeply committed to nurturing the next generation of design talent in Lucknow. I actively share industry expertise through guest lectures at Government College of Architecture (GCA), Lucknow, and Babu Banarasi Das University (BBDU), Lucknow — bridging the gap between architectural education and real-world material knowledge, and giving future designers a stronger foundation.
+                  </p>
+                  <p>
+                    Thank you for considering Bajrang Plywood. We are proud to be part of thousands of homes, offices, and design projects across Uttar Pradesh — and we look forward to being part of yours.
                   </p>
                 </div>
                 <p className="mt-6 text-foreground font-semibold">Warm Regards,</p>
                 <p className="text-primary font-bold">Mr. Anmol Agarwal</p>
                 <p className="text-sm text-muted-foreground">Director, Bajrang Plywood</p>
+                <p className="text-sm text-muted-foreground">Near Hotel Piccadily, Kanpur Road, Lucknow, Uttar Pradesh &ndash; 226012</p>
               </div>
             </div>
           </div>
@@ -302,21 +361,29 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <p className="text-primary font-semibold tracking-widest uppercase text-sm mb-2">Products We Deal In</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-                A Complete Range Of Interior Materials &amp; Solutions in Lucknow
+                A Complete Range of Interior Materials &amp; Solutions in Lucknow
               </h2>
-              <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                As authorised dealers and distributors of 50+ leading brands — including Century Ply, Kitply, Greenlam, Merino, Durian, Action TESA, Hettich, Hafele, Godrej, Blum, Ebco, Greenply / Sainik, Europa, Yale and Fevicol — every product at Bajrang Plywood meets strict quality benchmarks and is backed by genuine manufacturer warranty.
-              </p>
+              <div className="text-muted-foreground max-w-4xl mx-auto leading-relaxed space-y-4">
+                <p>
+                  Bajrang Plywood is one of the most comprehensive interior material showrooms in Lucknow, stocking the most prominent, refined, and innovative products across all categories of interior construction and decoration. As authorised dealers and distributors of 50+ leading brands — including Century Ply, Kitply, Greenlam, Merino, Durian, Action TESA, Hettich, Hafele, Godrej, Blum, Ebco, Greenply / Sainik, Ozone, Hindware Appliances, Europa, Doorset, Yale, Godrej, IPSA, Enarc, Jolly and Fevicol — every product at Bajrang Plywood meets strict quality benchmarks and is backed by genuine manufacturer warranty.
+                </p>
+                <p>
+                  We supply products to homeowners, interior designers, architects, carpenters, contractors, builders, and furniture manufacturers in Lucknow, Kanpur, Sitapur, Hardoi, Unnao, Rae Bareli, Lakhimpur Kheri, Barabanki, Uttarakhand, and surrounding regions of North India.
+                </p>
+              </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {productCategories.map((cat) => (
                 <div
-                  key={cat}
-                  className="flex items-center gap-3 bg-card rounded-lg p-4 shadow-sm border border-border hover:border-primary hover:shadow-md transition"
+                  key={cat.name}
+                  className="bg-card rounded-lg p-6 shadow-sm border border-border hover:border-primary hover:shadow-md transition"
                 >
-                  <ChevronRight className="text-primary flex-shrink-0" size={18} />
-                  <span className="text-foreground font-medium text-sm">{cat}</span>
+                  <div className="flex items-center gap-2 mb-2">
+                    <ChevronRight className="text-primary flex-shrink-0" size={18} />
+                    <h3 className="text-foreground font-bold text-base">{cat.name}</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed pl-6">{cat.description}</p>
                 </div>
               ))}
             </div>
@@ -354,7 +421,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-3">Our Mission</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  To deliver premium, durable, and architecturally superior interior materials — including plywood, laminates, hardware, veneers, and decorative solutions — while providing expert consultation that empowers architects, interior designers, and homeowners across Uttar Pradesh to bring their most ambitious projects to life, ensuring structural longevity and aesthetic excellence for every space.
+                  To deliver premium, durable, and architecturally superior interior materials — including plywood, laminates, hardware, veneers, and decorative solutions — while providing expert consultation that empowers architects, interior designers, and homeowners across Uttar Pradesh to bring their most ambitious projects to life. Our commitment is to ensure structural longevity and aesthetic excellence for every space in Lucknow and North India.
                 </p>
               </div>
               <div className="bg-card rounded-xl p-8 shadow border border-border">

@@ -690,6 +690,12 @@ export const productCategories: ProductCategory[] = [
           'Suited for wardrobe shutters, main doors, and cabinet fronts where a strong grip and bold visual statement are needed.',
         description:
           'Pull handles combine ergonomic functionality with striking visual appeal, serving as a key design accent on doors, wardrobes, and cabinetry. Bajrang Plywood offers pull handles in a variety of finishes and lengths, built from corrosion-resistant metal alloys for long-term durability. Easy to grip and install, these handles are a popular finishing choice for modular furniture and entrance doors across Lucknow and Uttar Pradesh.',
+        images: [
+          '/products/handles/pull-handles/1.png',
+          '/products/handles/pull-handles/2.png',
+          '/products/handles/pull-handles/3.png',
+          '/products/handles/pull-handles/4.png',
+        ],
       },
       {
         name: 'Cabinet Handles',
@@ -698,6 +704,13 @@ export const productCategories: ProductCategory[] = [
           'Ideal for kitchen cabinet shutters, wardrobe drawers, and modular furniture requiring compact, everyday-use handles.',
         description:
           'Cabinet handles provide the everyday grip point for drawers and shutters, and Bajrang Plywood stocks a wide range of designs from minimalist bar handles to decorative knobs. Manufactured with rust-resistant coatings, these handles are built to withstand frequent daily use in busy kitchens and bedrooms. Their varied finishes make it easy for designers across North India to match handles precisely to the overall interior theme.',
+        images: [
+          '/products/handles/cabinet-handles/1.png',
+          '/products/handles/cabinet-handles/2.png',
+          '/products/handles/cabinet-handles/3.png',
+          '/products/handles/cabinet-handles/4.png',
+          '/products/handles/cabinet-handles/5.png',
+        ],
       },
       {
         name: 'Profile Handles For Kitchen & Wardrobe',
@@ -706,6 +719,10 @@ export const productCategories: ProductCategory[] = [
           'Best suited for contemporary modular kitchens and wardrobes designed with a sleek, minimalist, handle-free appearance.',
         description:
           'Profile handles are built directly into the edge of the shutter, creating a smooth finger-pull groove instead of a protruding handle. Bajrang Plywood supplies these aluminium profile handles in multiple finishes, offering the clean lines favoured in modern modular kitchen and wardrobe design. Durable and easy to clean, they are increasingly preferred by architects and homeowners across Lucknow and Uttar Pradesh for a minimalist, contemporary look.',
+        images: [
+          '/products/handles/profile-handles-kitchen-wardrobe/1.png',
+          '/products/handles/profile-handles-kitchen-wardrobe/2.png',
+        ],
       },
       {
         name: 'Sliding Handles',
@@ -714,6 +731,12 @@ export const productCategories: ProductCategory[] = [
           'Designed for sliding wardrobe doors, sliding partitions, and cabinet doors where a flush, space-saving handle is required.',
         description:
           'Sliding handles are designed to sit flush or recessed within the door panel, allowing sliding doors to glide past each other without obstruction. Bajrang Plywood offers sliding handles built from sturdy, corrosion-resistant materials that maintain smooth operation over years of daily sliding use. Compact and functional, they are a practical choice for wardrobes and partitions across space-conscious homes and offices in North India.',
+        images: [
+          '/products/handles/sliding-handles/1.png',
+          '/products/handles/sliding-handles/2.png',
+          '/products/handles/sliding-handles/3.png',
+          '/products/handles/sliding-handles/4.png',
+        ],
       },
     ],
   },
@@ -750,6 +773,11 @@ export const productCategories: ProductCategory[] = [
           'Used for veneering wardrobes, panel doors, wall cladding, TV units, office furniture, and premium modular interiors. Ideal for carpenters, interior designers, and architects across Lucknow, Uttar Pradesh, and the Nepal border region looking for a genuine wood-grain finish.',
         description:
           'Bajrang Plywood brings you Natural Wood Veneer sheets sourced from real timber logs, offering an authentic wood grain that engineered laminates simply cannot match. Each sheet is carefully sliced and processed to retain natural texture, colour variation, and depth, giving furniture a rich, high-end look. Suitable for both residential and commercial interiors, our natural veneer works beautifully on wardrobes, doors, partitions, and feature walls. Trusted by carpenters and designers across Lucknow and Uttar Pradesh for its durability and premium finish, it is a top choice for anyone wanting timeless, elegant interiors. Available in bulk for dealers, contractors, and retail buyers across the Nepal border markets.',
+        images: [
+          '/products/veneer/natural-veneer/1.png',
+          '/products/veneer/natural-veneer/2.png',
+          '/products/veneer/natural-veneer/3.png',
+        ],
       },
       {
         name: 'Metallic Veneer',
@@ -758,6 +786,13 @@ export const productCategories: ProductCategory[] = [
           'Best suited for statement furniture pieces, modular wardrobes, false ceiling panels, reception counters, and accent wall panelling in homes, offices, hotels, and showrooms. Popular among interior designers in Lucknow and across Uttar Pradesh for premium, modern-style projects.',
         description:
           'Metallic Veneer from Bajrang Plywood is designed for interiors that demand a bold, contemporary edge. With a distinctive metallic sheen layered over engineered veneer, it adds a luxurious, futuristic touch to wardrobes, cabinets, wall panels, and commercial spaces. It is lightweight, easy to work with, and pairs well with both minimal and high-end décor styles. Widely used by architects and interior designers across Lucknow, Uttar Pradesh, and the Nepal border belt for hotels, showrooms, and premium residential projects, this veneer helps furniture stand out while maintaining strength and finish quality. Available in multiple metallic shades for bulk and retail supply.',
+        images: [
+          '/products/veneer/metallic-veneer/1.png',
+          '/products/veneer/metallic-veneer/2.png',
+          '/products/veneer/metallic-veneer/3.png',
+          '/products/veneer/metallic-veneer/4.png',
+          '/products/veneer/metallic-veneer/5.png',
+        ],
       },
       {
         name: 'Hybrid Veneer',
@@ -766,6 +801,12 @@ export const productCategories: ProductCategory[] = [
           'Ideal for wardrobes, wall panelling, door skins, false ceilings, and furniture where a consistent pattern with a natural look is required. Preferred by builders and carpenters across UP and Nepal border towns for cost-effective yet premium interiors.',
         description:
           'Hybrid Veneer by Bajrang Plywood combines the visual richness of natural wood with the uniformity and durability of engineered veneer manufacturing. This makes it a smart choice for large-scale projects that need consistent grain patterns across multiple panels, without compromising on aesthetics. It offers better resistance to warping and colour variation compared to plain natural veneer, making it ideal for humid and varying climate conditions found across Uttar Pradesh and the Nepal border region. A go-to material for carpenters, contractors, and interior designers seeking premium looks at practical pricing, available readily from our Lucknow-based supply network.',
+        images: [
+          '/products/veneer/hybrid-veneer/1.png',
+          '/products/veneer/hybrid-veneer/2.png',
+          '/products/veneer/hybrid-veneer/3.png',
+          '/products/veneer/hybrid-veneer/4.png',
+        ],
       },
     ],
   },

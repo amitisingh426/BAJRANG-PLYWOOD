@@ -233,7 +233,15 @@ export default function Home() {
       </section>
 
       {/* Served For Brands Marquee */}
-      <BrandsMarquee />
+        <section className="py-20 bg-background">
+          <div className="max-w-7xl mx-auto px-4">
+            <Reveal direction="up" className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-foreground mb-4">Served For Brands</h2>
+              <BrandsMarquee />
+            </Reveal>
+          </div>
+        </section>
+
 
       {/* Featured Products */}
       <section className="py-20 bg-background">

@@ -36,9 +36,9 @@ export function BrandsMarquee() {
         }
       `}</style>
 
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      {/* <div className="max-w-7xl mx-auto px-4 py-8">
         <h3 className="text-center text-lg font-semibold text-foreground mb-12">Served For Brands</h3>
-      </div>
+      </div> */}
 
       <div className="relative overflow-hidden bg-card/40 border-t border-b border-border py-8">
         <div className="flex gap-12 whitespace-nowrap" style={marqueeStyle}>

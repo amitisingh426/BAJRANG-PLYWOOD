@@ -90,6 +90,10 @@ export const productCategories: ProductCategory[] = [
           'Used for feature walls, wardrobe shutters, cabinet fronts, and office interiors where a rich, artisanal texture adds a premium visual character.',
         description:
           'Bajrang Plywood offers handcrafted laminate sheets to designers and homeowners across Lucknow, Uttar Pradesh, and the Nepal border area. These laminates replicate hand-finished textures — from woven patterns to artisan strokes — giving furniture and walls a unique, boutique-style appeal. Scratch-resistant and easy to maintain, they are ideal for modern homes, hotels, and offices wanting a distinctive decorative statement.',
+        images: [
+          '/products/laminates/handcrafted-laminates/1.png',
+          '/products/laminates/handcrafted-laminates/2.png',
+        ],
       },
       {
         name: 'Digital Laminates',
@@ -99,6 +103,15 @@ export const productCategories: ProductCategory[] = [
           'Perfect for wardrobes, TV units, kitchen shutters, and wall panels needing vivid, high-resolution wood, stone, or abstract designs.',
         description:
           'Bajrang Plywood supplies digitally printed laminates across Lucknow, UP, and Nepal border markets, offering sharp, high-definition prints of wood grains, marble, and modern patterns at an affordable price. Manufactured with advanced digital printing technology, these laminates deliver consistent color accuracy and design repeatability across sheets. A cost-effective alternative to natural veneers, they suit modular kitchens, wardrobes, and commercial interiors alike.',
+        images: [
+          '/products/laminates/digital-laminates/1.png',
+          '/products/laminates/digital-laminates/2.jpeg',
+          '/products/laminates/digital-laminates/3.png',
+          '/products/laminates/digital-laminates/4.png',
+          '/products/laminates/digital-laminates/5.jpeg',
+          '/products/laminates/digital-laminates/6.png',
+          '/products/laminates/digital-laminates/7.png',
+        ],
       },
       {
         name: 'Synchro Laminates',
@@ -107,6 +120,13 @@ export const productCategories: ProductCategory[] = [
           'Suited for wardrobes, doors, and furniture where the surface texture must match the printed wood grain for a natural, tactile wood-like feel.',
         description:
           'Available at Bajrang Plywood in Lucknow, Uttar Pradesh, and the Nepal border region, Synchro laminates use synchronized embossing technology so the surface texture aligns precisely with the printed grain pattern. This creates an authentic, natural-wood touch and look, elevating furniture and paneling with a premium tactile finish. Durable, scratch-resistant, and low-maintenance, they are widely chosen for high-end residential and commercial interiors.',
+        images: [
+          '/products/laminates/synchro-laminates/1.jpg',
+          '/products/laminates/synchro-laminates/2.jpg',
+          '/products/laminates/synchro-laminates/3.jpeg',
+          '/products/laminates/synchro-laminates/4.png',
+          '/products/laminates/synchro-laminates/5.png',
+        ],
       },
       {
         name: 'Solid Color Laminates',
@@ -115,6 +135,12 @@ export const productCategories: ProductCategory[] = [
           'Ideal for modular kitchens, wardrobes, office furniture, and minimalist interiors that require clean, uniform color tones without patterns.',
         description:
           'Bajrang Plywood stocks a wide palette of solid color laminates for customers across Lucknow, Uttar Pradesh, and Nepal border towns, available in glossy, matte, and suede finishes. These laminates offer a sleek, contemporary look that pairs well with modern and minimalist interior themes. Resistant to stains, scratches, and daily wear, they are a popular choice for kitchens, wardrobes, and commercial furniture requiring a clean, uniform finish.',
+        images: [
+          '/products/laminates/solid-color-laminates/1.jpeg',
+          '/products/laminates/solid-color-laminates/2.jpg',
+          '/products/laminates/solid-color-laminates/3.jpg',
+          '/products/laminates/solid-color-laminates/4.png',
+        ],
       },
       {
         name: 'Textures Laminates',
@@ -123,6 +149,11 @@ export const productCategories: ProductCategory[] = [
           'Best for feature walls, wardrobe shutters, and furniture fronts where a tactile, three-dimensional surface enhances the overall design appeal.',
         description:
           'Bajrang Plywood offers textured laminates to interior designers and homeowners across Lucknow, UP, and the Nepal border belt, featuring embossed 3D surfaces like linen, leather-look, and stone patterns. These laminates add depth and a premium tactile experience to furniture and walls, standing out from flat, plain surfaces. Durable and easy to clean, they suit both residential accent pieces and commercial interior projects.',
+        images: [
+          '/products/laminates/textures-laminates/1.jpeg',
+          '/products/laminates/textures-laminates/2.png',
+          '/products/laminates/textures-laminates/3.png',
+        ],
       },
       {
         name: 'Thermo / ASA Sheets',
@@ -131,6 +162,12 @@ export const productCategories: ProductCategory[] = [
           'Designed for kitchen shutters, wardrobe doors, and exterior-facing furniture panels that need resistance to heat, UV rays, moisture, and daily impact.',
         description:
           'Bajrang Plywood supplies Thermo and ASA laminate sheets across Lucknow, Uttar Pradesh, and Nepal border markets, known for their high UV and weather resistance. Manufactured with acrylonitrile styrene acrylate (ASA) technology, these sheets resist fading, cracking, and moisture even in extreme conditions, making them suitable for both interior shutters and semi-outdoor applications. A durable, low-maintenance option for modern modular kitchens and furniture.',
+        images: [
+          '/products/laminates/thermo-asa-sheets/1.jpg',
+          '/products/laminates/thermo-asa-sheets/2.png',
+          '/products/laminates/thermo-asa-sheets/3.jpeg',
+          '/products/laminates/thermo-asa-sheets/4.jpeg',
+        ],
       },
       {
         name: 'Bendable Sheets',
@@ -139,6 +176,10 @@ export const productCategories: ProductCategory[] = [
           'Used for curved furniture edges, columns, cabinet corners, and decorative curved wall panels where standard flat laminates cannot be applied.',
         description:
           'Bajrang Plywood provides flexible bendable laminate sheets to carpenters and designers in Lucknow, Uttar Pradesh, and the Nepal border region. Engineered to wrap smoothly around curves and rounded surfaces without cracking, these sheets open up creative design possibilities for modern furniture, reception counters, and architectural features. Combining flexibility with a durable decorative finish, they are ideal for projects demanding curved, seamless surfaces.',
+        images: [
+          '/products/laminates/bendable-sheets/1.jpg',
+          '/products/laminates/bendable-sheets/2.png',
+        ],
       },
       {
         name: 'Metallic Sheets',
@@ -147,6 +188,14 @@ export const productCategories: ProductCategory[] = [
           'Suited for feature walls, cabinet fronts, wardrobe shutters, and commercial interiors that need a bold, reflective, luxury metallic appearance.',
         description:
           'Bajrang Plywood offers metallic laminate sheets to clients across Lucknow, UP, and Nepal border cities, available in gold, silver, copper, and gunmetal finishes. These sheets bring a high-shine, luxurious metallic effect to furniture, wall panels, and commercial spaces such as hotels and showrooms. Durable and fingerprint-resistant, they make a striking design statement for accent walls and premium furniture fronts.',
+        images: [
+          '/products/laminates/metallic-sheets/1.jpg',
+          '/products/laminates/metallic-sheets/2.png',
+          '/products/laminates/metallic-sheets/3.png',
+          '/products/laminates/metallic-sheets/4.png',
+          '/products/laminates/metallic-sheets/5.png',
+          '/products/laminates/metallic-sheets/6.png',
+        ],
       },
       {
         name: 'MDF Louvers',
@@ -155,6 +204,10 @@ export const productCategories: ProductCategory[] = [
           'Commonly used for TV unit backdrops, wardrobe shutters, partition walls, and false ceilings that need a linear, fluted design element.',
         description:
           'Bajrang Plywood supplies MDF louver panels to interior designers and homeowners in Lucknow, Uttar Pradesh, and the Nepal border belt. These fluted panels add a trending, linear texture to walls, wardrobes, and partitions, instantly upgrading the look of modern interiors. Lightweight, easy to install, and available in multiple finishes, MDF louvers are a popular choice for contemporary homes, offices, and retail interiors.',
+        images: [
+          '/products/laminates/mdf-louvers/1.png',
+          '/products/laminates/mdf-louvers/2.png',
+        ],
       },
       {
         name: 'Designer Laminates',
@@ -163,6 +216,12 @@ export const productCategories: ProductCategory[] = [
           'Ideal for statement furniture pieces, wardrobe shutters, kitchen panels, and feature walls that need a distinctive, high-end decorative pattern.',
         description:
           'Bajrang Plywood presents an exclusive range of designer laminates for customers across Lucknow, Uttar Pradesh, and Nepal border markets, featuring curated patterns, artistic prints, and premium textures. These laminates are chosen by architects and interior designers to create standout furniture and wall features in homes, offices, and hospitality projects. Durable, easy to maintain, and visually striking, they elevate any interior with a designer touch.',
+        images: [
+          '/products/laminates/designer-laminates/1.png',
+          '/products/laminates/designer-laminates/2.png',
+          '/products/laminates/designer-laminates/3.png',
+          '/products/laminates/designer-laminates/4.png',
+        ],
       },
       {
         name: 'Premium Laminates',
@@ -180,6 +239,12 @@ export const productCategories: ProductCategory[] = [
           'Specially designed for bed backs, sofa backdrops, and headboard panels that require a soft, fabric-textured decorative surface.',
         description:
           'Bajrang Plywood supplies fabric-finish bed back sheets to furniture makers and homeowners in Lucknow, Uttar Pradesh, and Nepal border towns. These panels replicate the look and feel of upholstered fabric without the maintenance hassle of real cloth, making them perfect for bedroom headboards and soft interior accents. Easy to clean, durable, and available in multiple textures and colors, they add a cozy, elegant touch to bedroom interiors.',
+        images: [
+          '/products/laminates/bed-back-fabric-sheets/1.png',
+          '/products/laminates/bed-back-fabric-sheets/2.png',
+          '/products/laminates/bed-back-fabric-sheets/3.png',
+          '/products/laminates/bed-back-fabric-sheets/4.png',
+        ],
       },
     ],
   },

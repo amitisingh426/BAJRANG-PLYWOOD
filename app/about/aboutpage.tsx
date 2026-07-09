@@ -155,27 +155,12 @@ export default function AboutPage() {
                   We are authorised stockists and dealers for <b>Century Ply, Greenply, Greenlam, Kitply, Merino, Hettich, Godrej, Blum, Ebco, Fevicol</b>, and 50+ nationally respected brands. Today we supply across <b>Uttar Pradesh, Uttarakhand</b>, and major cities along the Nepal border region — serving interior designers, architects, furniture manufacturers, contractors, carpenters, builders, and homeowners, all in one place.
                 </p>
               </div>
-
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-8">
-                {[
-                  { value: '2013', label: 'Serving Since' },
-                  { value: '13+', label: 'Years Experience' },
-                  { value: '1,650+', label: 'Product Variants' },
-                  { value: '41+', label: 'Brand Dealer / Distributor' },
-                  { value: '40,000+', label: 'Clients Served' },
-                ].map((stat) => (
-                  <div key={stat.label} className="bg-muted rounded-lg p-4 text-center">
-                    <div className="text-2xl font-bold text-primary">{stat.value}</div>
-                    <p className="text-xs text-muted-foreground mt-1">{stat.label}</p>
-                  </div>
-                ))}
-              </div>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/about/showroom-1.jpg"
-                alt="Bajrang Plywood premium wardrobe display"
+                src="/about/bajrang-plywood-signage.png"
+                alt="Bajrang Plywood showroom signage — More Than Just Plywood, Lucknow"
                 className="rounded-lg shadow-lg w-full h-64 object-cover col-span-2"
               />
               <img
@@ -191,6 +176,31 @@ export default function AboutPage() {
               </div>
             </div>
           </Reveal>
+        </section>
+
+        {/* Key Stats Row */}
+        <section className="pb-4 md:pb-8">
+          <div className="max-w-7xl mx-auto px-4">
+            <Reveal direction="up" delay={0}>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                {[
+                  { value: '2013', label: 'Serving Since' },
+                  { value: '13+', label: 'Years Experience' },
+                  { value: '1,650+', label: 'Product Variants' },
+                  { value: '41+', label: 'Brand Dealer / Distributor' },
+                  { value: '40,000+', label: 'Clients Served' },
+                ].map((stat) => (
+                  <div
+                    key={stat.label}
+                    className="bg-muted rounded-lg p-6 text-center border border-border"
+                  >
+                    <div className="text-3xl font-bold text-primary">{stat.value}</div>
+                    <p className="text-sm text-muted-foreground mt-2 text-balance">{stat.label}</p>
+                  </div>
+                ))}
+              </div>
+            </Reveal>
+          </div>
         </section>
 
         {/* Our Story */}
@@ -412,8 +422,8 @@ export default function AboutPage() {
                 </div>
                 <div className="order-1 lg:order-2">
                   <img
-                    src="/about/showroom-3.jpg"
-                    alt="Bajrang Plywood — trusted material supplier for Godrej projects in Lucknow"
+                    src="/about/godrej-partner.png"
+                    alt="Godrej — Bajrang Plywood is a trusted material supplier for Godrej projects in Lucknow"
                     className="rounded-xl shadow-lg w-full h-64 md:h-80 object-cover"
                   />
                 </div>
@@ -425,8 +435,8 @@ export default function AboutPage() {
               <div className="grid lg:grid-cols-2 gap-10 items-center bg-card rounded-2xl p-6 md:p-10 shadow border border-border mt-8">
                 <div>
                   <img
-                    src="/about/showroom-4.jpg"
-                    alt="Bajrang Plywood — approved plywood and hardware supplier for Adani Group infrastructure projects"
+                    src="/about/adani-partner.png"
+                    alt="Adani Group Global Headquarters — Bajrang Plywood is an approved plywood and hardware supplier for Adani Group infrastructure projects"
                     className="rounded-xl shadow-lg w-full h-64 md:h-80 object-cover"
                   />
                 </div>

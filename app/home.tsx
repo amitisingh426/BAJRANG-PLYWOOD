@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { Reveal } from '@/components/scroll-animations'
 import { SiteFooter } from '@/components/site-footer'
 import { QuickEnquiryForm } from '@/components/quick-enquiry-form'
+import { BrandsMarquee } from '@/components/brands-marquee'
 import { siteConfig, telHref, whatsappHref, mapHref } from '@/lib/site-config'
 import type { Metadata } from 'next'
 
@@ -171,16 +172,16 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { name: 'Plywood', image: '/images/product-plywood-breathe.jpg', desc: 'E0 grade, calibrated, termite & borer proof plywood' },
-              { name: 'Laminates', image: '/images/product-laminates-dark.jpg', desc: 'Matte, gloss & textured — scratch resistant surface collection' },
-              { name: 'Handcraft Laminates', image: '/images/product-laminates-plusetone.jpg', desc: 'Artistic Plusetone laminates — unique designs for walls & furniture' },
-              { name: 'Hardware', image: '/images/product-hardware-locks.jpg', desc: 'Smart locks, hinges & precision-engineered fittings' },
-              { name: 'Charcoal Panels', image: '/images/product-charcoal-panels.jpg', desc: 'Modern walls, luxury impact — premium panels & louvers' },
-              { name: 'Doors & Surfaces', image: '/images/product-doors-entrance.jpg', desc: 'Premium doors for office & home — entrance to elegance' },
+              { name: 'Plywood', image: '/products/plywood/century-ply/1.png', desc: 'E0 grade, calibrated, termite & borer proof plywood' },
+              { name: 'Laminates', image: '/products/laminates/designer-laminates/1.png', desc: 'Matte, gloss & textured — scratch resistant surface collection' },
+              { name: 'Leather Panel-Louvers', image: '/products/bendable-panels/bendable-panels-or-louvers/1.jpeg', desc: 'Artistic Plusetone laminates — unique designs for walls & furniture' },
+              { name: 'Decoratives', image: '/products/decoratives/fabric-sheets/1.png', desc: 'Smart locks, hinges & precision-engineered fittings' },
+              { name: 'Kitchen Hardwares', image: '/products/kitchen-hardware/lift-up-system/1.png', desc: 'Modern walls, luxury impact — premium panels & louvers' },
+              { name: 'Customize Doors', image: '/products/decoratives/customized-door/1.png', desc: 'Premium doors for office & home — entrance to elegance' },
             ].map((category, idx) => (
               <Reveal key={idx} direction="up" delay={idx * 100}>
                 <div className="bg-card rounded-lg overflow-hidden shadow hover:shadow-lg transition group cursor-pointer h-full">
-                  <div className="relative h-48 overflow-hidden bg-muted">
+                  <div className="relative overflow-hidden bg-muted">
                     <img
                       src={category.image}
                       alt={category.name}
@@ -230,6 +231,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Served For Brands Marquee */}
+        <section className="py-20 bg-background">
+          <div className="max-w-7xl mx-auto px-4">
+            <Reveal direction="up" className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-foreground mb-4">Served For Brands</h2>
+              <BrandsMarquee />
+            </Reveal>
+          </div>
+        </section>
+
 
       {/* Featured Products */}
       <section className="py-20 bg-background">

@@ -28,7 +28,7 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <article className="group flex flex-col h-full rounded-xl overflow-hidden bg-card border border-border shadow-sm hover:shadow-md hover:border-primary/40 transition">
       {/* Image / carousel */}
-      <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+      <div className="relative aspect-[4/4] overflow-hidden bg-muted">
         {images.map((src, i) => (
           <img
             key={src}

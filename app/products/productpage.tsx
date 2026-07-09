@@ -105,7 +105,7 @@ export default function ProductsPage() {
       <div className="sticky top-16 md:top-20 z-40 bg-card/95 backdrop-blur border-b border-border shadow-sm">
         <div
           ref={tabsRef}
-          className="max-w-7xl mx-auto px-3 md:px-4 flex gap-1.5 md:gap-2 overflow-x-auto scrollbar-hide py-2.5 md:py-3"
+          className="max-w-7xl mx-auto px-3 md:px-4 flex flex-wrap lg:flex-nowrap gap-1.5 md:gap-2 overflow-x-visible lg:overflow-x-auto scrollbar-hide py-2.5 md:py-3"
         >
           {productCategories.map((c) => (
             <button
@@ -154,7 +154,7 @@ export default function ProductsPage() {
               </Reveal>
 
               {/* Product grid */}
-              <div className="grid gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="grid gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-2">
                 {cat.products.map((product, pIdx) => (
                   <Reveal key={product.name} direction="up" delay={(pIdx % 3) * 80}>
                     <ProductCard product={product} />

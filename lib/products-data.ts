@@ -13,6 +13,11 @@ export interface Product {
    * Convention when images arrive: /products/<categoryId>/<slug>.png
    */
   image?: string
+  /**
+   * Multiple product images. When two or more are present the card renders
+   * an image carousel. Convention: /products/<categoryId>/<slug>/<n>.<ext>
+   */
+  images?: string[]
 }
 
 export interface ProductCategory {
@@ -39,6 +44,7 @@ export const productCategories: ProductCategory[] = [
           'Ideal for kitchen cabinets, wardrobes, doors, and modular furniture that need long-term moisture and termite resistance. Suitable for both residential and commercial interiors across Uttar Pradesh.',
         description:
           'Bajrang Plywood brings genuine Century Plywood to Lucknow, Uttar Pradesh, and the Nepal border region — a trusted name for BWP/BWR grade boiling-waterproof plywood. Built with cross-laminated veneers and strong bonding, it resists warping, borer attack, and moisture damage even in humid climates. Perfect for kitchens, bathrooms, and heavy-use furniture. Available in multiple thicknesses (6mm–19mm) for carpenters, contractors, and homeowners seeking durable, ISI-marked plywood at competitive prices.',
+        images: ['/products/plywood/century-ply/1.png', '/products/plywood/century-ply/2.png'],
       },
       {
         name: 'Greenply',
@@ -48,6 +54,7 @@ export const productCategories: ProductCategory[] = [
           'Best suited for wardrobes, kitchen units, false ceilings, and structural furniture requiring high strength and anti-termite protection. Widely used by interior designers and carpenters in UP and Nepal border towns.',
         description:
           'As an authorized Greenply dealer, Bajrang Plywood supplies premium waterproof and termite-resistant plywood across Lucknow, Uttar Pradesh, and Nepal border markets. Greenply sheets are manufactured with hot-press technology and phenolic resin bonding, offering superior strength, screw-holding capacity, and moisture resistance. A preferred choice for modular kitchens, wardrobes, and long-lasting furniture, backed by trusted warranty and consistent quality standards.',
+        images: ['/products/plywood/greenply/1.jpg'],
       },
       {
         name: 'Wigwam Ply',
@@ -56,6 +63,7 @@ export const productCategories: ProductCategory[] = [
           'Recommended for interior furniture, cabinetry, wall paneling, and commercial fit-outs where a smooth, void-free core is essential. Popular among carpenters serving UP and neighbouring Nepal markets.',
         description:
           'Bajrang Plywood stocks Wigwam plywood for customers across Lucknow, Uttar Pradesh, and the Nepal border belt, known for its dense, void-free core and consistent panel strength. Engineered for durability and a smooth finish, Wigwam ply is easy to polish, laminate, or veneer, making it a versatile choice for furniture makers and interior contractors. Offered in various sizes and thicknesses to match residential and commercial project needs.',
+        images: ['/products/plywood/wigwam-ply/1.png', '/products/plywood/wigwam-ply/2.png'],
       },
       {
         name: 'Calibrated Ply',
@@ -65,6 +73,7 @@ export const productCategories: ProductCategory[] = [
           'Used where uniform thickness and a perfectly flat surface are critical, such as laminate-ready furniture panels, cabinet shutters, and veneered doors. Trusted by carpenters and modular furniture units across Uttar Pradesh.',
         description:
           'Bajrang Plywood offers precision calibrated plywood to carpenters and interior contractors in Lucknow, Uttar Pradesh, and Nepal border regions. Each sheet is machine-sanded to an exact, uniform thickness, ensuring a smooth, flat surface that bonds perfectly with laminates, veneers, and acrylics. This makes it the preferred base material for modular furniture, wardrobe shutters, and premium interior work where finish quality cannot be compromised.',
+        images: ['/products/plywood/calibrated-ply/1.png', '/products/plywood/calibrated-ply/2.jpg'],
       },
     ],
   },
@@ -186,6 +195,11 @@ export const productCategories: ProductCategory[] = [
           'Popular for modular kitchen shutters, wardrobe doors, and living room units where an ultra-glossy, mirror-like finish is desired.',
         description:
           'Bajrang Plywood provides premium acrylic laminate sheets to clients across Lucknow, Uttar Pradesh, and the Nepal border region, known for their deep, mirror-like gloss and vibrant colors. These sheets resist yellowing and scratches better than standard glossy laminates, giving furniture a long-lasting, high-end shine. A top choice for modern modular kitchens, wardrobes, and living spaces wanting a bold, reflective, contemporary look.',
+        images: [
+          '/products/acrylic-laminates/acrylic-laminates/1.jpeg',
+          '/products/acrylic-laminates/acrylic-laminates/2.jpeg',
+          '/products/acrylic-laminates/acrylic-laminates/3.jpeg',
+        ],
       },
     ],
   },
@@ -201,6 +215,11 @@ export const productCategories: ProductCategory[] = [
           'Designed for wardrobe shutters, cabinet doors, and bedroom furniture fronts that need a soft-touch, luxurious leather-like surface.',
         description:
           'Bajrang Plywood offers leather-finish wardrobe shutters to interior designers and homeowners across Lucknow, Uttar Pradesh, and Nepal border cities. These shutters combine the elegance of upholstered leather with the strength of engineered panels, giving wardrobes and cabinets a warm, premium appeal. Available in multiple colors and textures, they are ideal for bedrooms and dressing areas seeking a sophisticated, boutique-style finish.',
+        images: [
+          '/products/leather-panels/leather-wardrobe-shutters/1.jpeg',
+          '/products/leather-panels/leather-wardrobe-shutters/2.png',
+          '/products/leather-panels/leather-wardrobe-shutters/3.png',
+        ],
       },
       {
         name: 'Leather Panels',
@@ -209,6 +228,7 @@ export const productCategories: ProductCategory[] = [
           'Best suited for bedroom feature walls, office reception areas, and headboard backdrops that require a soft, textured leather-look surface.',
         description:
           'Bajrang Plywood supplies decorative leather panels to designers and homeowners in Lucknow, Uttar Pradesh, and the Nepal border belt. These panels bring a warm, upholstered leather texture to walls and furniture without the upkeep of genuine leather, making them practical for both homes and commercial spaces. Durable, soft to the touch, and available in various colors, they are a popular choice for accent walls and premium interior detailing.',
+        images: ['/products/leather-panels/leather-panels/1.jpeg'],
       },
       {
         name: 'Bendable Leather Sheets',
@@ -217,6 +237,11 @@ export const productCategories: ProductCategory[] = [
           'Used for curved wardrobe edges, rounded furniture corners, and decorative curved wall features where flat leather panels cannot be applied.',
         description:
           'Bajrang Plywood provides flexible, bendable leather-finish sheets to carpenters and designers across Lucknow, Uttar Pradesh, and Nepal border markets. These sheets can be wrapped around curves and rounded surfaces while retaining their soft leather texture and rich color, enabling creative curved furniture and wall designs. A practical choice for modern interiors that combine the luxury look of leather with design flexibility.',
+        images: [
+          '/products/leather-panels/bendable-leather-sheets/1.jpeg',
+          '/products/leather-panels/bendable-leather-sheets/2.png',
+          '/products/leather-panels/bendable-leather-sheets/3.png',
+        ],
       },
       {
         name: 'Leather Louvers',
@@ -225,6 +250,13 @@ export const productCategories: ProductCategory[] = [
           'Commonly used for TV unit backdrops, partition walls, and wardrobe shutters that need a linear fluted design with a soft leather texture.',
         description:
           'Bajrang Plywood offers leather-finish louver panels to interior designers and homeowners in Lucknow, Uttar Pradesh, and the Nepal border region. Combining the trending fluted, linear pattern with a warm leather-like surface, these louvers add a rich, tactile dimension to walls, wardrobes, and partitions. Lightweight and easy to install, they are ideal for creating a luxurious focal point in modern homes and offices.',
+        images: [
+          '/products/leather-panels/leather-louvers/1.png',
+          '/products/leather-panels/leather-louvers/2.png',
+          '/products/leather-panels/leather-louvers/3.png',
+          '/products/leather-panels/leather-louvers/4.png',
+          '/products/leather-panels/leather-louvers/5.png',
+        ],
       },
     ],
   },
@@ -240,6 +272,10 @@ export const productCategories: ProductCategory[] = [
           'Used in kitchen drawers, wardrobe drawers, and cabinet units requiring smooth, silent, and heavy-load sliding movement.',
         description:
           'Bajrang Plywood supplies telescopic drawer channels to modular kitchen and furniture makers across Lucknow, Uttar Pradesh, and the Nepal border region. Built with ball-bearing or roller mechanisms, these channels ensure smooth, noiseless, and full-extension drawer movement even under heavy load. Rust-resistant and long-lasting, they are a dependable hardware choice for modular kitchens, wardrobes, and office furniture.',
+        images: [
+          '/products/kitchen-hardware/telescopic-channels/1.png',
+          '/products/kitchen-hardware/telescopic-channels/2.png',
+        ],
       },
       {
         name: 'Auto Hinges',
@@ -248,6 +284,10 @@ export const productCategories: ProductCategory[] = [
           'Essential for kitchen cabinet doors, wardrobe shutters, and cupboard doors that need a smooth, self-closing, soundless mechanism.',
         description:
           'Bajrang Plywood offers premium auto (soft-close) hinges to carpenters and homeowners across Lucknow, Uttar Pradesh, and Nepal border markets. These hinges close cabinet and cupboard doors gently and silently, preventing slamming, damage, and noise. Corrosion-resistant and built for long-term daily use, auto hinges are a must-have upgrade for modern modular kitchens and wardrobe furniture.',
+        images: [
+          '/products/kitchen-hardware/auto-hinges/1.png',
+          '/products/kitchen-hardware/auto-hinges/2.png',
+        ],
       },
       {
         name: 'Tandem Boxes',
@@ -256,6 +296,10 @@ export const productCategories: ProductCategory[] = [
           'Used for modular kitchen drawers and wardrobe storage where maximum load capacity, smooth glide, and a premium organized look are required.',
         description:
           'Bajrang Plywood provides tandem box drawer systems to modular kitchen dealers and homeowners in Lucknow, Uttar Pradesh, and the Nepal border belt. These German-engineered style drawer systems offer full extension, soft-close action, and high load-bearing capacity, giving kitchens a clean, premium, and highly functional storage solution. A preferred hardware choice for modern modular kitchens and high-end wardrobe interiors.',
+        images: [
+          '/products/kitchen-hardware/tandem-boxes/1.png',
+          '/products/kitchen-hardware/tandem-boxes/2.png',
+        ],
       },
       {
         name: 'Quadro Channels',
@@ -264,6 +308,10 @@ export const productCategories: ProductCategory[] = [
           'Ideal for kitchen and wardrobe drawers that need a hidden, undermount sliding mechanism for a sleek, clutter-free drawer front appearance.',
         description:
           'Bajrang Plywood supplies Quadro undermount channels to modular furniture makers across Lucknow, Uttar Pradesh, and Nepal border cities. These concealed channels sit beneath the drawer, offering smooth, soft-close movement while keeping the drawer sides clean and visually seamless. A popular choice for premium modular kitchens and wardrobes that prioritize both function and a minimalist look.',
+        images: [
+          '/products/kitchen-hardware/quadro-channels/1.png',
+          '/products/kitchen-hardware/quadro-channels/2.png',
+        ],
       },
       {
         name: 'Lift Up System',
@@ -272,6 +320,10 @@ export const productCategories: ProductCategory[] = [
           'Used for overhead kitchen cabinets and wall units where doors need to lift upward smoothly instead of opening outward, saving space.',
         description:
           'Bajrang Plywood offers gas hydraulic lift-up systems to modular kitchen installers across Lucknow, Uttar Pradesh, and the Nepal border region. These fittings allow cabinet doors to open upward with light, smooth, and controlled motion, staying safely in place when open. Ideal for overhead kitchen units and space-saving storage, lift-up systems combine convenience with a modern, streamlined kitchen appearance.',
+        images: [
+          '/products/kitchen-hardware/lift-up-system/1.png',
+          '/products/kitchen-hardware/lift-up-system/2.png',
+        ],
       },
       {
         name: 'Kitchen Shutter',
@@ -280,6 +332,10 @@ export const productCategories: ProductCategory[] = [
           'Used as ready cabinet door fronts for modular kitchens, offering a quick, finished look for both new installations and kitchen renovations.',
         description:
           'Bajrang Plywood supplies modular kitchen shutters to homeowners and contractors across Lucknow, Uttar Pradesh, and Nepal border towns. Available in various finishes such as laminate, acrylic, and PVC, these ready-made shutters give kitchen cabinets a clean, factory-finished appearance while saving installation time. Durable and moisture-resistant, they are a practical solution for both new modular kitchens and quick makeovers.',
+        images: [
+          '/products/kitchen-hardware/kitchen-shutter/1.png',
+          '/products/kitchen-hardware/kitchen-shutter/2.png',
+        ],
       },
       {
         name: 'Pantry Unit',
@@ -288,6 +344,10 @@ export const productCategories: ProductCategory[] = [
           'Designed for tall kitchen storage cabinets that need organized, pull-out shelving for groceries, jars, and kitchen essentials.',
         description:
           'Bajrang Plywood provides pantry unit hardware systems to modular kitchen dealers across Lucknow, Uttar Pradesh, and the Nepal border belt. These pull-out pantry units maximize storage in tall cabinets, offering easy access to groceries and kitchen items with smooth-glide shelving. A space-efficient solution that keeps kitchens organized and clutter-free, popular in both compact and large modular kitchen designs.',
+        images: [
+          '/products/kitchen-hardware/pantry-unit/1.png',
+          '/products/kitchen-hardware/pantry-unit/2.png',
+        ],
       },
       {
         name: 'Tall Unit',
@@ -296,6 +356,10 @@ export const productCategories: ProductCategory[] = [
           'Used for full-height kitchen cabinets that store appliances, groceries, and utensils, maximizing vertical storage space in the kitchen.',
         description:
           'Bajrang Plywood supplies tall unit hardware and fittings to modular kitchen installers across Lucknow, Uttar Pradesh, and Nepal border markets. These systems are engineered for full-height cabinets, offering multiple shelves, pull-out baskets, and easy-access storage for appliances and groceries. A smart solution for kitchens with limited floor space but ample vertical room, combining functionality with organized storage.',
+        images: [
+          '/products/kitchen-hardware/tall-unit/1.png',
+          '/products/kitchen-hardware/tall-unit/2.png',
+        ],
       },
       {
         name: 'Magic Corner',
@@ -304,6 +368,10 @@ export const productCategories: ProductCategory[] = [
           'Specifically used for L-shaped kitchen corner cabinets that are otherwise hard to access, converting dead corner space into usable storage.',
         description:
           'Bajrang Plywood offers magic corner storage units to modular kitchen dealers in Lucknow, Uttar Pradesh, and the Nepal border region. These rotating or pull-out mechanisms make full use of awkward corner cabinet spaces, bringing stored items smoothly into reach. A smart hardware solution that eliminates wasted corner space and improves overall kitchen storage efficiency and convenience.',
+        images: [
+          '/products/kitchen-hardware/magic-corner/1.png',
+          '/products/kitchen-hardware/magic-corner/2.png',
+        ],
       },
       {
         name: 'Bin Holder',
@@ -312,6 +380,10 @@ export const productCategories: ProductCategory[] = [
           'Installed inside kitchen cabinets to hold waste bins neatly, keeping the kitchen clean and odor-free with easy pull-out access.',
         description:
           'Bajrang Plywood supplies pull-out bin holder systems to modular kitchen customers across Lucknow, Uttar Pradesh, and Nepal border towns. These holders keep waste bins concealed within cabinets and provide smooth, easy access when needed, helping maintain a clean and hygienic kitchen. Durable and easy to install, bin holders are an essential hardware fitting for modern, well-organized modular kitchens.',
+        images: [
+          '/products/kitchen-hardware/bin-holder/1.png',
+          '/products/kitchen-hardware/bin-holder/2.png',
+        ],
       },
       {
         name: 'Wicker Basket',
@@ -320,6 +392,10 @@ export const productCategories: ProductCategory[] = [
           'Used inside kitchen cabinets and wardrobes for storing vegetables, utensils, or clothing with good ventilation and easy visibility.',
         description:
           'Bajrang Plywood provides wicker (wire mesh) storage baskets to modular kitchen and wardrobe customers across Lucknow, Uttar Pradesh, and the Nepal border belt. These baskets offer ventilated, easy-to-access storage for vegetables, utensils, and folded clothing, keeping cabinets organized and items visible. Rust-resistant and sturdy, wicker baskets are a practical addition to any modular kitchen or wardrobe interior.',
+        images: [
+          '/products/kitchen-hardware/wicker-basket/1.png',
+          '/products/kitchen-hardware/wicker-basket/2.png',
+        ],
       },
     ],
   },
@@ -335,6 +411,10 @@ export const productCategories: ProductCategory[] = [
           'Used for curved walls, rounded columns, and cylindrical furniture features where standard flat louver panels cannot be installed.',
         description:
           'Bajrang Plywood offers flexible bendable louver panels to designers and contractors across Lucknow, Uttar Pradesh, and the Nepal border region. These panels retain the trending fluted, linear texture while bending smoothly around curved walls, columns, and rounded furniture. A creative solution for architects and interior designers wanting to introduce the popular louver look into curved and non-flat surfaces.',
+        images: [
+          '/products/bendable-panels/bendable-panels-or-louvers/1.jpeg',
+          '/products/bendable-panels/bendable-panels-or-louvers/2.jpeg',
+        ],
       },
     ],
   },

@@ -20,7 +20,7 @@ const brands = [
 
 export function BrandsMarquee() {
   const marqueeStyle: CSSProperties = {
-    animation: 'scroll 70s linear infinite',
+    animation: 'scroll 40s linear infinite',
   }
 
   return (

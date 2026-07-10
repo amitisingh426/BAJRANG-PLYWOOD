@@ -230,6 +230,13 @@ export const productCategories: ProductCategory[] = [
           'Suitable for high-traffic furniture such as kitchen shutters, wardrobes, office desks, and commercial counters that demand extra durability along with aesthetics.',
         description:
           'Bajrang Plywood offers premium-grade laminate sheets to residential and commercial clients across Lucknow, UP, and the Nepal border region. Built with high-density core layers and superior surface coating, these laminates provide enhanced resistance to scratches, heat, and daily wear compared to standard laminates. A trusted option for modular kitchens, office furniture, and commercial spaces looking for long-lasting performance combined with a rich finish.',
+        images: [
+          '/products/laminates/premium-laminates/1.png',
+          '/products/laminates/premium-laminates/2.png',
+          '/products/laminates/premium-laminates/3.png',
+          '/products/laminates/premium-laminates/4.png',
+          '/products/laminates/premium-laminates/5.png',
+        ],
       },
       {
         name: 'Bed Back Fabric Sheets',
@@ -494,7 +501,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Wardrobe door inserts, partition screens, and organic bohemian furniture accents.',
         description:
           'Bring organic warmth and texture to your interiors with our premium natural rattan cane sheets. Perfectly suited for both contemporary and traditional designs, these breathable, durable sheets add an earthy charm to any space. Bajrang Plywood offers an extensive selection at our Lucknow showroom, serving as a trusted wholesale supplier for interior designers and furniture makers across Uttar Pradesh, North India, and Nepal border cities.',
-        images: ['/products/decoratives/cane-sheet/1.jpeg', '/products/decoratives/cane-sheet/2.jpeg'],
+        images: ['/products/decoratives/cane-sheet/1.png', '/products/decoratives/cane-sheet/2.png'],
       },
       {
         name: 'Cork Sheet',
@@ -502,7 +509,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Office notice boards, acoustic wall cladding, accent walls, and thermal insulation backing.',
         description:
           'Optimize your spaces with sustainable cork sheets, an excellent choice for acoustic dampening and thermal regulation. Widely utilized in commercial offices and educational spaces, these eco-friendly panels effectively minimize ambient noise. Available in bulk, Bajrang Plywood ensures seamless distribution to contractors and architects throughout Lucknow, the broader UP region, and neighbouring Nepal border markets.',
-        images: ['/products/decoratives/cork-sheet/1.jpeg', '/products/decoratives/cork-sheet/2.jpeg'],
+        images: ['/products/decoratives/cork-sheet/1.png', '/products/decoratives/cork-sheet/2.png'],
       },
       {
         name: 'Cork Sheet with Louvers',
@@ -542,7 +549,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Main entrance doors, luxury master bedroom entryways, and sophisticated office cabin doors.',
         description:
           'We DEAL IN- Laminate Doors, Veneer Doors, PU Doors, Duco Doors, Panel Doors, W.P.C / P.V.C Doors, Membrane Doors, Flush Doors. Make a lasting impression with customized architectural doors tailored exactly to your vision. Built with warp-resistant calibrated cores to ensure structural integrity over time, these doors seamlessly complement luxury interior themes. Operating out of Lucknow, Bajrang Plywood collaborates with premium homeowners and builders to deliver tailored dimensions and finishes across Uttar Pradesh and North India.',
-        images: ['/products/decoratives/customized-door/1.jpg', '/products/decoratives/customized-door/2.jpg', '/products/decoratives/customized-door/3.jpg'],
+        images: ['/products/decoratives/customized-door/1.png', '/products/decoratives/customized-door/2.png', '/products/decoratives/customized-door/3.png'],
       },
       {
         name: 'Designer Laminates 1.25mm Thickness',
@@ -630,7 +637,7 @@ export const productCategories: ProductCategory[] = [
         usage: 'Ideal for accent walls, curved columns, ceiling features, and full 360-degree wraparound cladding on pillars and arches.',
         description:
           'Get the raw, earthy beauty of natural clay and stone without the weight or rigidity of traditional cladding with our MCM Flexible Clay Sheets. Their ultra-thin, flexible construction allows them to be wrapped fully around curved columns, arches, and irregular surfaces for a genuine 360-degree finish. Lightweight yet durable, these sheets resist cracking and moisture while delivering an authentic textured, natural stone appearance. Bajrang Plywood supplies this innovative cladding solution from Lucknow to designers and builders across Uttar Pradesh, North India, and the Nepal border looking for a modern take on natural wall finishes.',
-        images: ['/products/decoratives/mcm-flexible-clay-sheets/1.jpg', '/products/decoratives/mcm-flexible-clay-sheets/2.jpg'],
+        images: ['/products/decoratives/mcm-flexible-clay-sheets/1.png', '/products/decoratives/mcm-flexible-clay-sheets/2.png'],
       },
       {
         name: 'Flextone',
@@ -638,6 +645,13 @@ export const productCategories: ProductCategory[] = [
         usage: 'Perfect for living room feature walls, hotel lobbies, restaurant interiors, and curved reception backdrops.',
         description:
           'Flextone panels bring a rich, warm wood-toned finish to walls while offering the flexibility to follow curved and irregular surfaces where rigid wood panelling simply cannot go. These lightweight decorative sheets are easy to install, resistant to routine wear, and deliver a natural, sophisticated look at a fraction of the effort of solid wood cladding. Bajrang Plywood, a trusted decorative surfaces supplier in Lucknow, stocks Flextone in a range of finishes for residential and commercial interior projects across Uttar Pradesh and North India.',
+        images: [
+          '/products/decoratives/flextone/1.png',
+          '/products/decoratives/flextone/2.png',
+          '/products/decoratives/flextone/3.png',
+          '/products/decoratives/flextone/4.png',
+          '/products/decoratives/flextone/5.png',
+        ],
       },
     ],
   },

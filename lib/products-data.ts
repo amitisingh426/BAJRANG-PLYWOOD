@@ -544,14 +544,6 @@ export const productCategories: ProductCategory[] = [
         images: ['/products/decoratives/charcoal-louver/1.png'],
       },
       {
-        name: 'Customized Door',
-        title: 'Bespoke Architectural Wooden Doors',
-        usage: 'Main entrance doors, luxury master bedroom entryways, and sophisticated office cabin doors.',
-        description:
-          'We DEAL IN- Laminate Doors, Veneer Doors, PU Doors, Duco Doors, Panel Doors, W.P.C / P.V.C Doors, Membrane Doors, Flush Doors. Make a lasting impression with customized architectural doors tailored exactly to your vision. Built with warp-resistant calibrated cores to ensure structural integrity over time, these doors seamlessly complement luxury interior themes. Operating out of Lucknow, Bajrang Plywood collaborates with premium homeowners and builders to deliver tailored dimensions and finishes across Uttar Pradesh and North India.',
-        images: ['/products/decoratives/customized-door/1.png', '/products/decoratives/customized-door/2.png', '/products/decoratives/customized-door/3.png'],
-      },
-      {
         name: 'Designer Laminates 1.25mm Thickness',
         title: 'Heavy-Duty 1.25mm Designer Laminates',
         usage: 'High-wear modular kitchen countertops, premium wardrobes, office desks, and durable partitions.',
@@ -935,6 +927,21 @@ export const productCategories: ProductCategory[] = [
           '/products/wardrobe-accessories/multiple-layer-wardrobe-organizer/1.png',
           '/products/wardrobe-accessories/multiple-layer-wardrobe-organizer/2.png',
         ],
+      },
+    ],
+  },
+  {
+    id: 'customized-doors',
+    label: 'Customized Doors',
+    title: 'Customized Doors',
+    products: [
+      {
+        name: 'Customized Door',
+        title: 'Bespoke Architectural Wooden Doors',
+        usage: 'Main entrance doors, luxury master bedroom entryways, and sophisticated office cabin doors.',
+        description:
+          'We DEAL IN- Laminate Doors, Veneer Doors, PU Doors, Duco Doors, Panel Doors, W.P.C / P.V.C Doors, Membrane Doors, Flush Doors. Make a lasting impression with customized architectural doors tailored exactly to your vision. Built with warp-resistant calibrated cores to ensure structural integrity over time, these doors seamlessly complement luxury interior themes. Operating out of Lucknow, Bajrang Plywood collaborates with premium homeowners and builders to deliver tailored dimensions and finishes across Uttar Pradesh and North India.',
+        images: ['/products/decoratives/customized-door/1.png', '/products/decoratives/customized-door/2.png', '/products/decoratives/customized-door/3.png'],
       },
     ],
   },

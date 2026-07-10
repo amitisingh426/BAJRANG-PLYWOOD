@@ -79,18 +79,18 @@ export function SiteHeader() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="w-10 h-10 flex items-center justify-center bg-primary text-primary-foreground rounded hover:bg-accent transition"
+            className="flex items-center justify-center text-primary hover:text-accent transition"
           >
-            <InstagramIcon size={20} />
+            <InstagramIcon size={24} />
           </a>
           <a
             href={whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
-            className="w-10 h-10 flex items-center justify-center bg-primary text-primary-foreground rounded hover:bg-accent transition"
+            className="flex items-center justify-center text-primary hover:text-accent transition"
           >
-            <WhatsAppIcon size={20} />
+            <WhatsAppIcon size={24} />
           </a>
           <a href={telHref} className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded hover:bg-accent transition">
             <Phone size={18} />

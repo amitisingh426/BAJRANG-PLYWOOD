@@ -239,7 +239,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: 'Quality Materials', desc: 'Premium grade products for durability' },
+              { title: 'Right-Fit Solutions', desc: 'Premium products backed by expert guidance to solve your unique design and structural needs' },
               { title: 'Wide Selection', desc: '1000+ variants to choose from' },
               { title: 'Expert Guidance', desc: 'Professional advice from experienced team' },
               { title: 'Wholesale & Retail', desc: 'Competitive pricing for all volumes' },

@@ -199,7 +199,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { name: 'Plywood', image: '/products/plywood/century-ply/1.png', desc: 'E0 grade, calibrated, termite & borer proof plywood' },
-              { name: 'Laminates', image: '/products/laminates/designer-laminates/1.png', desc: 'Matte, gloss & textured — scratch resistant surface collection' },
+              { name: 'Laminates', image: '/products/laminates/premium-laminates/1.png', desc: 'Matte, gloss & textured — scratch resistant surface collection' },
               { name: 'Leather Panel-Louvers', image: '/products/bendable-panels/bendable-panels-or-louvers/1.jpeg', desc: 'Artistic Plusetone laminates — unique designs for walls & furniture' },
               { name: 'Decoratives', image: '/products/decoratives/fabric-sheets/1.png', desc: 'Smart locks, hinges & precision-engineered fittings' },
               { name: 'Kitchen Hardwares', image: '/products/kitchen-hardware/lift-up-system/1.png', desc: 'Modern walls, luxury impact — premium panels & louvers' },

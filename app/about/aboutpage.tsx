@@ -201,7 +201,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Bajrang Plywood is one of the leading <b>plywood dealers, hardware suppliers, and decorative interior material distributors in Lucknow</b>, Uttar Pradesh — proudly serving customers <b>since 2013</b>. Located at 586, Bara Birwa, Kanpur Road, Lucknow (near Hotel Piccadily), our showroom is a complete destination for premium Plywood, Laminates, Veneers, Flush Doors, Block Boards, MDF boards, Charcoal Panels, PVC Panels, Hardware fittings, Locks, Acrylic Sheet, Doors, Adhesives, and Decorative Interior Accessories.
+                  Bajrang Plywood is one of the leading <b>plywood dealers, hardware suppliers, and decorative interior material distributors in Lucknow</b>, Uttar Pradesh — proudly serving customers <b>since 2013</b>. Located at 586, Bara Birwa, Kanpur Road, Lucknow (near Hotel Piccadily), our showroom is a complete destination for premium Plywood, Laminates, Veneers, Flush Doors, Block Boards, MDF boards, Charcoal Panels, PVC Panels, Hardware fittings, Locks, Acrylic Sheet, Doors, Adhesives, and Decorative Interior Accessories. From landmark government projects like the Vidhan Sabha to modern homes, Bajrang Plywood stands for unmatched quality.
                 </p>
                 <p>
                   We are authorised stockists and dealers for <b>Century Ply, Greenply, Greenlam, Kitply, Merino, Hettich, Godrej, Blum, Ebco, Fevicol</b>, and 50+ nationally respected brands. Today, Bajrang Plywood supplies products across <b>Uttar Pradesh, Uttarakhand</b>, and major cities along the Nepal border region, while also catering to customers in various parts of India through a strong distribution network. Whether you are an interior designer, architect, furniture manufacturer, contractor, carpenter, builder, or a homeowner planning a new kitchen, wardrobe, or office fit-out — Bajrang Plywood has everything you need, in one place.
@@ -365,10 +365,10 @@ export default function AboutPage() {
               </h2>
               <div className="text-muted-foreground max-w-4xl mx-auto leading-relaxed space-y-4">
                 <p>
-                  Bajrang Plywood is one of the most comprehensive interior material showrooms in Lucknow, stocking the most prominent, refined, and innovative products across all categories of interior construction and decoration. As authorised dealers and distributors of 50+ leading brands — including Century Ply, Kitply, Greenlam, Merino, Durian, Action TESA, Hettich, Hafele, Godrej, Blum, Ebco, Greenply / Sainik, Ozone, Hindware Appliances, Europa, Doorset, Yale, Godrej, IPSA, Enarc, Jolly and Fevicol — every product at Bajrang Plywood meets strict quality benchmarks and is backed by genuine manufacturer warranty.
+                  Bajrang Plywood is one of the most comprehensive interior material showrooms in Lucknow, stocking the most prominent, refined, and innovative products across all categories of interior construction and decoration. As authorised dealers and distributors of 50+ leading brands — including Century Ply, Kitply, Greenlam, Merino, Durian, Action TESA, Hettich, Hafele, Godrej, Blum, Ebco, Greenply / Samet, Ozone, Hindware Appliances, Europa, Doorset, Yale, Godrej, IPSA, Enarc, Jolly and Fevicol — every product at Bajrang Plywood meets strict quality benchmarks and is backed by genuine manufacturer warranty.
                 </p>
                 <p>
-                  We supply products to homeowners, interior designers, architects, carpenters, contractors, builders, and furniture manufacturers in Lucknow, Kanpur, Sitapur, Hardoi, Unnao, Rae Bareli, Lakhimpur Kheri, Barabanki, Uttarakhand, and surrounding regions of North India.
+                  We supply products to homeowners, interior designers, architects, carpenters, contractors, builders, and furniture manufacturers in Lucknow, Kanpur, Ayodhya, Sitapur, Hardoi, Unnao, Rae Bareli, Lakhimpur Kheri, Barabanki, Uttarakhand, and surrounding regions of North India.
                 </p>
               </div>
             </div>

@@ -137,14 +137,14 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full py-16 sm:py-20 md:py-24">
           <div className="max-w-2xl">
             {/* <p className="text-primary font-semibold tracking-widest uppercase text-sm mb-4">More Than Just Plywood</p> */}
-            <p className="text-primary font-semibold tracking-widest uppercase text-xs sm:text-sm mb-3 sm:mb-4 font-serif italic">
+            {/* <p className="text-primary font-semibold tracking-widest uppercase text-xs sm:text-sm mb-3 sm:mb-4 font-serif italic">
               More Than Just Plywood
-            </p>
+            </p> */}
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight text-balance">
               Premium Plywood&#44; Surfaces &amp; Interior Materials
             </h1>
             <p className="text-base sm:text-lg text-white/80 mb-8 sm:mb-10 leading-relaxed">
-              Your complete one-stop shop for laminates, veneers, hardware, charcoal panels and decorative surfaces — all under one roof in Lucknow.
+              Your complete one-stop showroom for laminates, veneers, hardware, charcoal panels and decorative surfaces — all under one roof in Lucknow and Uttar Pradesh.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={telHref} className="px-8 py-4 bg-primary text-primary-foreground rounded text-lg font-semibold hover:bg-accent transition flex items-center justify-center gap-2">
@@ -199,7 +199,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { name: 'Plywood', image: '/products/plywood/century-ply/1.png', desc: 'E0 grade, calibrated, termite & borer proof plywood' },
-              { name: 'Laminates', image: '/products/laminates/designer-laminates/1.png', desc: 'Matte, gloss & textured — scratch resistant surface collection' },
+              { name: 'Laminates', image: '/products/laminates/premium-laminates/1.png', desc: 'Matte, gloss & textured — scratch resistant surface collection' },
               { name: 'Leather Panel-Louvers', image: '/products/bendable-panels/bendable-panels-or-louvers/1.jpeg', desc: 'Artistic Plusetone laminates — unique designs for walls & furniture' },
               { name: 'Decoratives', image: '/products/decoratives/fabric-sheets/1.png', desc: 'Smart locks, hinges & precision-engineered fittings' },
               { name: 'Kitchen Hardwares', image: '/products/kitchen-hardware/lift-up-system/1.png', desc: 'Modern walls, luxury impact — premium panels & louvers' },
@@ -239,7 +239,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: 'Quality Materials', desc: 'Premium grade products for durability' },
+              { title: 'Right-Fit Solutions', desc: 'Solving your unique design needs' },
               { title: 'Wide Selection', desc: '1000+ variants to choose from' },
               { title: 'Expert Guidance', desc: 'Professional advice from experienced team' },
               { title: 'Wholesale & Retail', desc: 'Competitive pricing for all volumes' },
@@ -281,7 +281,7 @@ export default function Home() {
             {[
               { name: 'Smart Locks', rating: 5, image: '/images/product-smart-lock.jpeg' },
               { name: 'Premium Plywood Products', rating: 5, image: '/images/product-thermo-sheet.jpg' },
-              { name: 'Signature Doors', rating: 5, image: '/images/product-doors-signature.jpg' },
+              { name: 'Veneers', rating: 5, image: '/products/veneer/natural-veneer/2.png' },
             ].map((product, idx) => (
               <Reveal key={idx} direction={idx === 0 ? 'left' : idx === 2 ? 'right' : 'up'} delay={idx * 100}>
                 <div className="bg-card rounded-lg shadow hover:shadow-lg transition overflow-hidden h-full">
@@ -323,10 +323,10 @@ export default function Home() {
           </Reveal>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { img: '/images/product-safe-godrej.jpg', label: 'Plywood' },
-              { img: '/images/product-woodex-louvers.jpg', label: 'WPC Louvers' },
-              { img: '/images/product-laminates-artistic.jpg', label: 'Artistic Laminates' },
-              { img: '/images/product-doors-signature.jpg', label: 'Signature Doors' },
+              { img: '/images/1.png', label: 'Plywood' },
+              { img: '/images/2.png', label: 'Louvers' },
+              { img: '/images/3.png', label: 'Laminates' },
+              { img: '/images/4.png', label: 'Connect With Us' },
             ].map((item, idx) => (
               <Reveal key={idx} direction="zoom" delay={idx * 80}>
                 <div className="relative overflow-hidden rounded-lg h-52 group cursor-pointer shadow">
@@ -425,7 +425,7 @@ export default function Home() {
             <Reveal direction="up" delay={120}>
               <div className="flex flex-col items-center">
                 <Phone size={48} className="mb-4" />
-                <p className="text-lg"><strong>Call:</strong><br /> +91 9793628899, +91 9118881560,<br /> +91 9795530227</p>
+                <p className="text-lg"><strong>Call:</strong><br /> +91 9793638899, +91 9118881560,<br /> +91 9795530227(Director)</p>
               </div>
             </Reveal>
             <Reveal direction="up" delay={240}>

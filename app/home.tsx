@@ -329,7 +329,7 @@ export default function Home() {
               { img: '/images/4.png', label: 'Connect With Us' },
             ].map((item, idx) => (
               <Reveal key={idx} direction="zoom" delay={idx * 80}>
-                <div className="relative overflow-hidden rounded-lg h-52 group cursor-pointer shadow">
+                <div className="relative overflow-hidden rounded-lg group cursor-pointer shadow">
                   <img src={item.img} alt={item.label} className="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
                   <div className="absolute bottom-0 left-0 right-0 bg-foreground/60 py-2 px-3">
                     <p className="text-white text-sm font-semibold text-center">{item.label}</p>

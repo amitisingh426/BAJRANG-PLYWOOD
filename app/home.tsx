@@ -281,7 +281,7 @@ export default function Home() {
             {[
               { name: 'Smart Locks', rating: 5, image: '/images/product-smart-lock.jpeg' },
               { name: 'Premium Plywood Products', rating: 5, image: '/images/product-thermo-sheet.jpg' },
-              { name: 'Signature Doors', rating: 5, image: '/images/product-doors-signature.jpg' },
+              { name: 'Veneers', rating: 5, image: '/products/veneer/natural-veneer/2.png' },
             ].map((product, idx) => (
               <Reveal key={idx} direction={idx === 0 ? 'left' : idx === 2 ? 'right' : 'up'} delay={idx * 100}>
                 <div className="bg-card rounded-lg shadow hover:shadow-lg transition overflow-hidden h-full">

@@ -365,10 +365,10 @@ export default function AboutPage() {
               </h2>
               <div className="text-muted-foreground max-w-4xl mx-auto leading-relaxed space-y-4">
                 <p>
-                  Bajrang Plywood is one of the most comprehensive interior material showrooms in Lucknow, stocking the most prominent, refined, and innovative products across all categories of interior construction and decoration. As authorised dealers and distributors of 50+ leading brands — including Century Ply, Kitply, Greenlam, Merino, Durian, Action TESA, Hettich, Hafele, Godrej, Blum, Ebco, Greenply / Sainik, Ozone, Hindware Appliances, Europa, Doorset, Yale, Godrej, IPSA, Enarc, Jolly and Fevicol — every product at Bajrang Plywood meets strict quality benchmarks and is backed by genuine manufacturer warranty.
+                  Bajrang Plywood is one of the most comprehensive interior material showrooms in Lucknow, stocking the most prominent, refined, and innovative products across all categories of interior construction and decoration. As authorised dealers and distributors of 50+ leading brands — including Century Ply, Kitply, Greenlam, Merino, Durian, Action TESA, Hettich, Hafele, Godrej, Blum, Ebco, Greenply / Samet, Ozone, Hindware Appliances, Europa, Doorset, Yale, Godrej, IPSA, Enarc, Jolly and Fevicol — every product at Bajrang Plywood meets strict quality benchmarks and is backed by genuine manufacturer warranty.
                 </p>
                 <p>
-                  We supply products to homeowners, interior designers, architects, carpenters, contractors, builders, and furniture manufacturers in Lucknow, Kanpur, Sitapur, Hardoi, Unnao, Rae Bareli, Lakhimpur Kheri, Barabanki, Uttarakhand, and surrounding regions of North India.
+                  We supply products to homeowners, interior designers, architects, carpenters, contractors, builders, and furniture manufacturers in Lucknow, Kanpur, Ayodhya, Sitapur, Hardoi, Unnao, Rae Bareli, Lakhimpur Kheri, Barabanki, Uttarakhand, and surrounding regions of North India.
                 </p>
               </div>
             </div>

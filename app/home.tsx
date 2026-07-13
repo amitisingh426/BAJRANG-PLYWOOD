@@ -425,7 +425,7 @@ export default function Home() {
             <Reveal direction="up" delay={120}>
               <div className="flex flex-col items-center">
                 <Phone size={48} className="mb-4" />
-                <p className="text-lg"><strong>Call:</strong><br /> +91 9793628899, +91 9118881560,<br /> +91 9795530227</p>
+                <p className="text-lg"><strong>Call:</strong><br /> +91 9793638899, +91 9118881560,<br /> +91 9795530227(Director)</p>
               </div>
             </Reveal>
             <Reveal direction="up" delay={240}>

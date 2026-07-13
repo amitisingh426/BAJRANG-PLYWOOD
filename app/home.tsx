@@ -323,10 +323,10 @@ export default function Home() {
           </Reveal>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { img: '/images/product-safe-godrej.jpg', label: 'Plywood' },
-              { img: '/images/product-woodex-louvers.jpg', label: 'WPC Louvers' },
-              { img: '/images/product-laminates-artistic.jpg', label: 'Artistic Laminates' },
-              { img: '/images/product-doors-signature.jpg', label: 'Signature Doors' },
+              { img: '/images/1.png', label: 'Plywood' },
+              { img: '/images/2.png', label: 'Louvers' },
+              { img: '/images/3.png', label: 'Laminates' },
+              { img: '/images/4.png', label: 'Connect With Us' },
             ].map((item, idx) => (
               <Reveal key={idx} direction="zoom" delay={idx * 80}>
                 <div className="relative overflow-hidden rounded-lg h-52 group cursor-pointer shadow">

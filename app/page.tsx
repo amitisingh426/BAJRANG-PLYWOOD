@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Home from "./home";
 
 export const metadata: Metadata = {
-  title: "Bajrang Plywood - Premium Interior Materials in Lucknow",
+  title: "Bajrang Plywood – Plywood, Laminates, Decoratives & Hardware Shop in Lucknow",
   description:
-    "Premium plywood, laminates, veneers & hardware in Lucknow. 13+ years, 1000+ variants.",
+    "Bajrang Plywood is Lucknow's trusted plywood, Laminates and hardware store, offering PVC wall panels, doors, laminates, Decoratives and door locks at the best prices.",
 };
 
 export default function Page() {

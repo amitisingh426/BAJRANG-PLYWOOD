@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import AboutPage from "./aboutpage";
 
 export const metadata: Metadata = {
-  title: "About Us | Bajrang Plywood — Trusted Plywood & Interior Material Supplier in Lucknow",
+  title: "About Us | Bajrang Plywood – Plywood, Laminate & Decoratives Store in Lucknow",
   description:
-    "Founded in 2013 by Mr. Anmol Agarwal, Bajrang Plywood is Lucknow's trusted plywood dealer, hardware supplier & decorative interior material distributor — an authorised dealer of 50+ brands and a trusted material supplier for Godrej projects and Adani Group infrastructure developments across Uttar Pradesh.",
+    "Founded in 2013 by Mr. Anmol Agarwal, Bajrang Plywood, a leading plywood, Laminates and hardware dealer in Lucknow trusted by customers for quality boards, doors and panels. — an authorised dealer of 50+ brands and a trusted material supplier for Godrej projects and Adani Group infrastructure developments across Uttar Pradesh.",
   keywords: [
     "plywood dealer in Lucknow",
     "hardware supplier Lucknow",
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "Century Ply Greenply dealer Lucknow",
   ],
   openGraph: {
-    title: "About Bajrang Plywood — Lucknow's Trusted Plywood & Interior Material Supplier",
+    title: "About Us | Bajrang Plywood – Plywood, Laminate & Decoratives Store in Lucknow.",
     description:
-      "Serving Lucknow & Uttar Pradesh since 2013. Authorised dealer of 50+ brands and trusted material partner for Godrej projects and Adani Group infrastructure developments.",
+      "Founded in 2013 by Mr. Anmol Agarwal, Bajrang Plywood, a leading plywood, Laminates and hardware dealer in Lucknow trusted by customers for quality boards, doors and panels. — an authorised dealer of 50+ brands and a trusted material supplier for Godrej projects and Adani Group infrastructure developments across Uttar Pradesh.",
     type: "website",
   },
 };

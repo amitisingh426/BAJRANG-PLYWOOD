@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import AboutPage from "./aboutpage";
 
 export const metadata: Metadata = {
-  title: "About Us | Bajrang Plywood – Plywood, Laminate & Decoratives Store in Lucknow",
+  title: "About Bajrang Plywood | Lucknow Dealer Since 2013",
   description:
-    "Founded in 2013 by Mr. Anmol Agarwal, Bajrang Plywood, a leading plywood, Laminates and hardware dealer in Lucknow trusted by customers for quality boards, doors and panels. — an authorised dealer of 50+ brands and a trusted material supplier for Godrej projects and Adani Group infrastructure developments across Uttar Pradesh.",
+    "Founded in 2013 by Anmol Agarwal, Bajrang Plywood is a Lucknow plywood, laminate and hardware dealer and authorised stockist of leading brands.",
   keywords: [
     "plywood dealer in Lucknow",
     "hardware supplier Lucknow",

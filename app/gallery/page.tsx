@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import GalleryPage from "./gallerypage";
 
 export const metadata: Metadata = {
-  title: "Gallery- Plywood, PVC Wall Panels, Doors & Door Locks, Laminates & Sunmica Sheets & Hardware",
+  title: "Interior Project Gallery | Bajrang Plywood Lucknow",
   description:
-    "See real kitchen, wardrobe, living room & office projects completed using Bajrang Plywood materials.",
+    "See real kitchen, wardrobe, living room and office interiors built with Bajrang Plywood materials from our Lucknow showroom.",
 };
 
 export default function Page() {

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ContactPage from "./contactpage";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact The Showroom, Kanpur Road Lucknow | Bajrang Plywood",
   description:
-    "Contact Bajrang Plywood in Lucknow — call, WhatsApp, or visit our showroom.",
+    "Visit Bajrang Plywood at 586 Bara Birwa, Kanpur Road, Lucknow. Open daily 10 AM - 8 PM. Call or WhatsApp for plywood and laminate prices.",
 };
 
 export default function Page() {

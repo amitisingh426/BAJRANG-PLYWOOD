@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ProductsPage from "./productpage";
 
 export const metadata: Metadata = {
-  title: "Our Products | Plywood, PVC Panels, MDF, Doors & Hardware",
+  title: "Plywood, Laminates & Hardware Catalogue | Bajrang Plywood",
   description:
-    "Browse Bajrang Plywood's full product range: plywood boards, PVC & WPC wall panels,MDF/HDHMR boards, laminates, wooden doors and hardware fittings.",
+    "Browse plywood, laminates, veneers, louvers, kitchen hardware, locks and doors at Bajrang Plywood, Lucknow. Retail and wholesale. Enquire today.",
 };
 
 export default function Page() {
